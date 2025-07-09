@@ -1,0 +1,23 @@
+问题: 搜索Shandong省/市在2022年03月（2021年12月至2022年06月）碳排放Ground部门出现变化的具体事件。请查找：1）可能影响Ground部门碳排放的重大事件，如自然灾害、经济事件、重大基础设施建设等；2）Shandong省/市Ground部门的重大项目或设施变动情况。必须提供具体事件名称、发生时间、地点、规模和影响。请列出所有查找到的事件，每项需注明具体信息来源网址。
+
+回答:
+1. **事件名称**：山东省碳达峰实施方案发布
+   - **发生时间**：2021年12月28日
+   - **地点**：山东省
+   - **规模**：省级政策
+   - **影响**：该方案明确了山东省碳达峰的主要目标和重点任务，预计将显著减少当地碳排放，增加区域绿色总要素生产率。
+   - **信息来源网址**：[Carbon Peaking Implementation Plan for Shandong Province](https://climatecooperation.cn/climate/implementation-plan-for-carbon-dioxide-peaking-in-shandong-province/)
+
+2. **事件名称**：山东省发布协同减污降碳实施方案
+   - **发生时间**：2022年5月23日
+   - **地点**：山东省
+   - **规模**：省级政策
+   - **影响**：该方案旨在协同推进污染减排和碳排放降低，预计将有效减少山东省的碳排放。
+   - **信息来源网址**：[Shandong Province Releases Implementation Plan for Synergized Pollution Reduction and Carbon Mitigation](https://climatecooperation.cn/climate/shandong-province-launches-implementation-plan-for-synergizing-pollution-reduction-and-carbon-mitigation/)
+
+3. **事件名称**：山东省基础设施“七网”建设行动计划发布
+   - **发生时间**：2022年6月24日
+   - **地点**：山东省
+   - **规模**：省级政策
+   - **影响**：该行动计划将推动山东省基础设施建设，提升能源效率，预计将对碳排放产生积极影响。
+   - **信息来源网址**：[Action Plan for the Construction of "Seven Networks" of Infrastructure in Shandong Province](https://www.seetao.com/details/166200.html)

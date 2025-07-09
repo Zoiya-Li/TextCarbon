@@ -1,0 +1,144 @@
+# 碳排放变点全类型分析汇总报告
+
+## 总体统计
+- 总分析变点数: 203
+- 地区覆盖: Anhui, Beijing, Gansu, Guizhou, Hebei, Heilongjiang, Henan, Hubei
+- 部门覆盖: Aviation, Ground, Industry, Power, Residential
+
+## 按变点类型统计
+### Seasonal
+- 变点总数: 43
+- 涉及地区: Anhui, Beijing, Gansu, Guizhou, Hebei, Heilongjiang, Henan, Hubei
+- 涉及部门: Aviation, Ground, Industry, Power, Residential
+- 平均置信度: 0.62
+
+### Event
+- 变点总数: 160
+- 涉及地区: Anhui, Beijing, Gansu, Guizhou, Hebei, Heilongjiang, Henan, Hubei
+- 涉及部门: Industry, Power, Residential, Aviation
+- 平均置信度: 0.59
+
+## 按地区统计
+### Anhui
+- 变点总数: 25
+- 涉及部门: Aviation, Ground, Industry, Power, Residential
+- 类型分布:
+  - Event: 22个
+  - Seasonal: 3个
+
+### Beijing
+- 变点总数: 28
+- 涉及部门: Ground, Industry, Power, Residential
+- 类型分布:
+  - Event: 20个
+  - Seasonal: 8个
+
+### Gansu
+- 变点总数: 25
+- 涉及部门: Aviation, Industry, Power, Residential
+- 类型分布:
+  - Event: 20个
+  - Seasonal: 5个
+
+### Guizhou
+- 变点总数: 22
+- 涉及部门: Ground, Industry, Power, Residential
+- 类型分布:
+  - Event: 17个
+  - Seasonal: 5个
+
+### Hebei
+- 变点总数: 22
+- 涉及部门: Ground, Industry, Power
+- 类型分布:
+  - Event: 18个
+  - Seasonal: 4个
+
+### Heilongjiang
+- 变点总数: 26
+- 涉及部门: Aviation, Ground, Industry, Power, Residential
+- 类型分布:
+  - Event: 22个
+  - Seasonal: 4个
+
+### Henan
+- 变点总数: 30
+- 涉及部门: Aviation, Ground, Industry, Power, Residential
+- 类型分布:
+  - Event: 19个
+  - Seasonal: 11个
+
+### Hubei
+- 变点总数: 25
+- 涉及部门: Aviation, Ground, Industry, Power, Residential
+- 类型分布:
+  - Event: 22个
+  - Seasonal: 3个
+
+## 按部门统计
+### Aviation
+- 变点总数: 12
+- 涉及地区: Anhui, Gansu, Heilongjiang, Henan, Hubei
+- 类型分布:
+  - Seasonal: 9个
+  - Event: 3个
+
+### Ground
+- 变点总数: 18
+- 涉及地区: Anhui, Beijing, Guizhou, Hebei, Heilongjiang, Henan, Hubei
+- 类型分布:
+  - Seasonal: 18个
+
+### Industry
+- 变点总数: 80
+- 涉及地区: Anhui, Beijing, Gansu, Guizhou, Hebei, Heilongjiang, Henan, Hubei
+- 类型分布:
+  - Event: 69个
+  - Seasonal: 11个
+
+### Power
+- 变点总数: 80
+- 涉及地区: Anhui, Beijing, Gansu, Guizhou, Hebei, Heilongjiang, Henan, Hubei
+- 类型分布:
+  - Event: 76个
+  - Seasonal: 4个
+
+### Residential
+- 变点总数: 13
+- 涉及地区: Anhui, Beijing, Gansu, Guizhou, Heilongjiang, Henan, Hubei
+- 类型分布:
+  - Event: 12个
+  - Seasonal: 1个
+
+## 按年份分布
+- 2019年: 13个变点
+- 2020年: 39个变点
+- 2021年: 34个变点
+- 2022年: 51个变点
+- 2023年: 49个变点
+- 2024年: 17个变点
+
+## 年份-类型交叉统计
+### 2019年
+- Event: 13个
+
+### 2020年
+- Event: 34个
+- Seasonal: 5个
+
+### 2021年
+- Event: 25个
+- Seasonal: 9个
+
+### 2022年
+- Event: 41个
+- Seasonal: 10个
+
+### 2023年
+- Event: 33个
+- Seasonal: 16个
+
+### 2024年
+- Event: 14个
+- Seasonal: 3个
+

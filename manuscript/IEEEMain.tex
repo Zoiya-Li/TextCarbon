@@ -1,0 +1,86 @@
+\documentclass[conference]{IEEEtran}
+\usepackage{siunitx}
+\IEEEoverridecommandlockouts
+\usepackage{cite}
+
+\usepackage{amsmath,amssymb,amsfonts}
+\usepackage{algorithm}
+\usepackage{algorithmicx}
+\usepackage{algpseudocode}
+\usepackage{graphicx}
+\usepackage{subcaption}
+\usepackage{textcomp}
+\usepackage{xcolor}
+\usepackage{booktabs}
+\usepackage{url}
+\usepackage{multirow}
+\usepackage[switch]{lineno}
+\usepackage[T1]{fontenc}
+\def\BibTeX{{\rm B\kern-.05em{\sc i\kern-.025em b}\kern-.08em
+    T\kern-.1667em\lower.7ex\hbox{E}\kern-.125emX}}
+\begin{document}
+
+\title{Impact of Events is more Important than Capturing Periodicity for Carbon Emissions Forecasting}
+
+\author{\IEEEauthorblockN{Zeyan Li}
+\IEEEauthorblockA{\textit{Jinan University\& University of Birmingham Joint Institution} \\
+\textit{Jinan University}\\
+Guangzhou, China \\
+zeyan0823@gmail.com}
+\and
+\IEEEauthorblockN{Zeyan Li*}
+\IEEEauthorblockA{\textit{Jinan University\& University of Birmingham Joint Institution} \\
+\textit{Jinan University}\\
+Guangzhou, China \\
+zeyan0823@gmail.com}
+
+\and
+\IEEEauthorblockN{Xiaoping Wang}
+\IEEEauthorblockA{\textit{School of Civil Engineering and Geomatics} \\
+\textit{Southwest Petroleum University}\\
+Chengdu, China \\
+wxiaoping0322@163.com}
+}
+
+\author{Zeyan Li, Yichen Shi, Libing Chen, Xiaotong Luo, Wenlong Ye.
+%, Shu Wang*.
+
+\thanks{Zeyan Li, Yichen Shi, Libing Chen, Xiaotong Luo, and Wenlong Ye are with Jinan University \& University of Birmingham Joint Institution, Jinan University, Guangzhou, 511443, China (e-mail: zeyan0823@gmail.com, Jacob231015@outlook.com, lxc615@student.bham.ac.uk, shuwangjnu@126.com.).}
+}
+
+
+\maketitle
+
+\begin{abstract}
+Accurate daily carbon emission forecasting is vital for effective climate mitigation, yet current models often overemphasize easily discernible periodicities (e.g., weekly or seasonal cycles). This study posits that forecasting the impact of discrete, often abrupt, real-world events—which drive significant and less predictable deviations from cyclical baselines—is of greater practical importance and presents a more substantial forecasting challenge. We introduce Text-Carbon, a novel deep learning framework designed to master this challenge by synergistically fusing numerical time series with AI-processed textual narratives of impactful events. The foundation of this work is a newly constructed and open-sourced large-scale dataset, specifically engineered to support event-centric emissions analysis. This dataset, spanning 13 regions in China from 01/01/2019 to 31/12/2024, was built via a sophisticated pipeline: (i) robust identification and characterization of significant, potentially non-cyclical, change-points in daily carbon emission series; followed by (ii) targeted, LLM-driven retrieval and structuring of associated policy and event texts for these specific junctures.  Our framework, trained on this event-rich dataset, demonstrates a superior ability to predict event-induced emission surges and declines compared to models focusing on periodicity. Ablation studies confirm that the integration of AI-curated event information is the primary driver of this enhanced predictive power for practically significant emission changes. By shifting focus from readily apparent cycles to high-impact, less predictable events, our research provides a more relevant forecasting paradigm.
+\end{abstract}
+
+\begin{IEEEkeywords}
+Carbon emissions, Impact of Event , Time series forecasting, multi-modal fusion.
+\end{IEEEkeywords}
+
+
+
+\input{Introduction}
+
+\input{Related_Work}
+
+\input{Data}
+
+\input{Methodology}
+
+\input{Discussion}
+
+\input{Conclusion}
+
+\section*{Acknowledgment}
+
+This study is supported by the Special Funds for Cultivation of Guangdong College Students’ Scientific and Technological Innovation
+(“Climbing Program” Special Funds) [Grant No. pdjh2024a053], National Innovation and Entrepreneurship Training Program for Undergraduate [Grant No. 202410559011].
+
+
+\bibliographystyle{IEEEtran}
+%\bibliography{ref}
+%\bibliographystyle{plain}
+\bibliography{sn-bibliography}
+\end{document}

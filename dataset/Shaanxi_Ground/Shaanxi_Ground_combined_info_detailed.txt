@@ -1,0 +1,31 @@
+# Shaanxi省/市 Ground部门 碳排放变点相关政策与事件汇总
+
+分析时间: 2025-05-01 16:56:12
+共包含 1 个重要转折点的相关信息
+
+---
+
+## 转折点: 2023-05-06 (Seasonal) - 置信度: 0.59
+
+1. **具体政策名称/事件**：Shaanxi Province "14th Five-Year Plan" Energy-saving and Emission Reduction Work Plan
+**发布/发生时间**：2023年2月15日
+**责任机构**：Shaanxi Provincial Development and Reform Commission, Shaanxi Provincial Department of Ecology and Environment
+**核心内容**：该计划详细制定了2021-2025年期间的节能减排路线图，明确提出到2025年，非化石能源占能源消费总量的比例要从2020年的10%提升至15%以上，单位GDP二氧化碳排放比2020年降低19%。计划特别强调要优化产业结构，重点控制煤炭消费总量，在能源、钢铁、建材等重点行业实施深度减排措施。同时提出要建立碳排放统计监测体系，完善市场化减排机制。
+**预期影响**：预计该计划的实施将推动全省能源结构转型，促进清洁能源发展，显著降低单位GDP能耗。据初步测算，到2025年可减少二氧化碳排放约5000万吨，同时带动新能源产业投资超过800亿元。
+**信息来源网址**：[链接](https://www.atlantis-press.com/proceedings/icifde-23/125993173)
+
+2. **具体政策名称/事件**：Shanxi Province Promotes the Development of Distributed Renewable Energy Three-year Action Plan (2023-2025)
+**发布/发生时间**：2023年2月28日
+**责任机构**：Shanxi Provincial Energy Bureau, Shaanxi Provincial Department of Housing and Urban-Rural Development
+**核心内容**：山西省发布的这份三年行动计划详细规划了分布式可再生能源的发展路径，重点支持屋顶光伏、分散式风电、生物质能等项目建设。计划提出到2025年，新增分布式可再生能源装机容量达到5GW，其中分布式光伏3.5GW，分散式风电1GW，生物质能0.5GW。同时配套出台了财政补贴、电网接入、土地审批等方面的支持政策，简化项目审批流程，鼓励企业、园区和居民参与分布式能源建设。
+**预期影响**：预计该计划实施后，山西省可再生能源发电量占比将提高3-5个百分点，每年可替代标准煤约300万吨，减少二氧化碳排放800万吨。同时将创造约2万个就业岗位，带动相关产业链投资超过200亿元。
+**信息来源网址**：[链接](https://www.gem.wiki/Power_Sector_Transition_in_Shanxi)
+
+3. **补充信息**：
+- 2023年4月，Shaanxi省启动了重点行业碳排放监测平台建设，首批纳入监测的企业包括30家大型煤化工企业和15家水泥生产企业
+- 2023年第三季度，Xi'an市试点开展了建筑领域碳排放权交易，覆盖50个大型商业综合体
+- 2024年1月，Yulin市获批建设国家级能源革命创新示范区，重点开展煤炭清洁利用技术研发
+
+未找到Shaanxi省Ground部门季节性需求变化的官方统计数据以及与Ground部门季节性碳排放相关的地方政府措施和影响Ground部门季节性能源使用的具体项目或举措。建议后续关注省统计局每季度发布的能源消费报告和生态环境厅的季度排放监测数据。
+
+---

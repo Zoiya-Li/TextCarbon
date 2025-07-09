@@ -1,0 +1,48 @@
+# Shandong省/市 Residential部门 碳排放变点汇总
+
+分析时间: 2025-05-01 16:56:12
+共3个重要转折点
+
+---
+
+## 转折点: 2022-02-24 (Event) - 置信度: 0.56
+
+1. **绿色低碳能源转型项目**
+   - 时间: 2022年12月28日
+   - 目标: 2030年前实现光伏9500万千瓦、风电4500万千瓦、核电1000万千瓦、生物质500万千瓦装机容量
+   - 措施: 发展海上风电、核能及氢能产业
+   - 来源: [山东省人民政府](https://www.seetao.com/details/197389.html)
+
+2. **协同减污降碳方案**
+   - 时间: 2022年5月23日
+   - 内容: 工业污染与碳排放协同控制
+   - 来源: [山东省生态环境厅](https://climatecooperation.cn/climate/shandong-province-launches-implementation-plan-for-synergizing-pollution-reduction-and-carbon-mitigation/)
+
+---
+
+## 转折点: 2024-01-20 (Seasonal) - 置信度: 0.61
+
+1. **核能供暖项目**
+   - 时间: 2024年1月
+   - 地点: 威海市
+   - 效果: 替代燃煤供暖，减少碳排放
+   - 来源: [中国日报](https://govt.chinadaily.com.cn/s/202501/21/WS6795be7d498eec7e1f72e464/shandong-drives-green-energy-forward.html)
+
+2. **"十强"产业计划**
+   - 时间: 2024年1月
+   - 重点: 绿色低碳产业发展
+   - 来源: [山东省政府](https://en.selectshandong.com/syzx/ywxx/30625.shtml)
+
+---
+
+## 转折点: 2024-03-15 (Event) - 置信度: 0.65
+
+1. **核能供暖实施**
+   - 地点: 威海乳山市
+   - 效益: 年减煤11万吨，减排SO₂ 465吨、NOx 130吨
+   - 来源: [The Daily CPEC](https://thedailycpec.com/shandong-introduces-nuclear-powered-heating/)
+
+2. **绿色低碳示范项目**
+   - 投资: 306.1亿元（91个项目）
+   - 地点: 菏泽市
+   - 来源: [IQilu](https://english.iqilu.com/news/news/2025/0121/5770391.shtml)

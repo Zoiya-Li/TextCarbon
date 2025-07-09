@@ -1,0 +1,6 @@
+long_term_forecast_FEDformerWithText_Anhui_Aviation_20250607_001629_FEDformerWithText_custom_ftS_sl96_ll48_pl96_dm512_nh8_el2_dl1_df2048_expand2_dc4_fc1_ebtimeF_dtTrue_test_0  
+mse:0.28429746627807617, mae:0.4393961429595947, dtw:Not calculated, total_time:52.5132s
+
+long_term_forecast_FEDformerWithText_Anhui_Industry_20250607_001629_FEDformerWithText_custom_ftS_sl96_ll48_pl96_dm512_nh8_el2_dl1_df2048_expand2_dc4_fc1_ebtimeF_dtTrue_test_0  
+mse:0.3896194398403168, mae:0.4924698770046234, dtw:Not calculated, total_time:66.2506s
+

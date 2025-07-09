@@ -1,0 +1,51 @@
+# Guizhou省/市电力部门碳排放变点汇总
+
+分析时间: 2025-05-01 16:56:12
+
+---
+
+## 2020-12-27 (Event) - 置信度: 0.68
+**事件**：贵州发耳电厂4号机组投产  
+**地点**：六盘水市  
+**规模**：60万千瓦超临界燃煤机组  
+**影响**：年发电33亿千瓦时，采用高效技术降低煤耗和碳排放  
+**来源**：[贵州省能源局](http://www.gzenergy.gov.cn/xxgk/tzgg/202101/t20210104_43577.html)
+
+---
+
+## 2020年 (Event) - 置信度: 0.57
+**事件**：贵州风电光伏产业扩张  
+**数据**：风电企业增至42家，光伏企业增至33家  
+**影响**：清洁能源发电789.3亿千瓦时，年减排6154万吨  
+**来源**：[businessinsider](https://markets.businessinsider.com/news/stocks/guizhou-is-carrying-out-ambitious-action-to-reduce-greenhouse-gas-emissions-1030595383)
+
+---
+
+## 2021-10-12 (Seasonal) - 置信度: 0.62
+**政策1**：《峰谷分时电价通知》  
+**内容**：2021年10月起实施峰谷电价，浮动±50%  
+**目标**：促进新能源消纳，提高用电效率  
+**来源**：[贵州省发改委](https://www.dejiang.gov.cn/zfbm_5646712/fgj/zcwj_5646727/202109/t20210909_70034837.html)  
+
+**政策2**：《电价市场化改革通知》  
+**内容**：放开燃煤发电上网电价，实行市场交易  
+**来源**：[贵州省发改委](https://www.guizhou.gov.cn/zwgk/zdlygk/jjgzlfz/nyzy/yxxd/202012/t20201201_65451717.html)
+
+---
+
+## 2022-08月 (Event) - 置信度: 0.57
+**事件1**：500千伏奢鸭Ⅱ回线路投产  
+**影响**：提升电网输电效率，降低损耗  
+**来源**：[chinadaily](https://subsites.chinadaily.com.cn/guiyang/stwmw/2022-08/15/c_797872.htm)  
+
+**事件2**：毕节抽水蓄能电站并网  
+**规模**：120万千瓦  
+**影响**：增强调峰能力，促进可再生能源消纳  
+**来源**：[ScienceDirect](https://www.sciencedirect.com/science/article/pii/S2666916125000398)
+
+---
+
+## 2024-08-08 (Event) - 置信度: 0.57
+**事件**：贵州科学城科技创新谷项目启动  
+**潜在影响**：可能引入新能源技术提升能效  
+**来源**：[Guiyang.gov](http://english.guiyang.gov.cn/2024-08/08/c_1010594.htm)

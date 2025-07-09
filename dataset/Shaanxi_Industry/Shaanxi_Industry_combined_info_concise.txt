@@ -1,0 +1,57 @@
+# Shaanxi省/市 Industry部门 碳排放变点相关政策与事件汇总  
+分析时间: 2025-05-01 16:56:12  
+共10个转折点  
+
+---  
+
+## 2021-03-01 (Event) - 置信度: 0.56  
+1. **中央环保督察组进驻陕西**  
+2021年3月，督察组筛查高耗能项目，检查产能削减情况，重点针对新烟囱项目。揭露71例典型案例，含11个高耗能项目。  
+[来源](https://global.chinadaily.com.cn/a/202112/03/WS61a96e03a310cdd39bc79138.html)  
+
+2. **JD西安碳中和物流园**  
+2021年12月启动中国首个碳中和物流园建设。  
+[来源](https://www.chinadaily.com.cn/a/202112/11/WS61b3fc70a310cdd39bc7ab95.html)  
+
+---  
+
+## 2022-01-28 (Event) - 置信度: 0.56  
+1. **陕西省"十四五"节能减排方案**  
+2022年实施，目标2025年规模以上工业单位增加值能耗比2020年降13.5%。  
+[来源](http://www.Shaanxi.gov.cn/zfxxgk/fdzdgknr/zcwj/nszfwj/szf/202302/t20230208_2274203.html)  
+
+2. **工业领域碳达峰方案**  
+2023年发布，优化能源结构，维持相同能耗下降目标。  
+[来源](https://www.miit.gov.cn/jgsj/jns/dfdt/art/2023/art_77ae4f2a46414393815d31cab6bb2b8d.html)  
+
+---  
+
+## 2022-06-12 (Seasonal) - 置信度: 0.65  
+**节能减排方案**  
+目标2025年非化石能源消费占比16%，挑战煤炭主导结构。  
+[来源](http://www.Shaanxi.gov.cn/zfxxgk/fdzdgknr/zcwj/nszfwj/szf/202302/t20230208_2274203.html)  
+
+---  
+
+## 2022-08-01 (Event) - 置信度: 0.56  
+1. **节能减排方案**  
+重点推进高耗能行业减排，建设绿色工业园区。  
+[来源](http://www.Shaanxi.gov.cn/zfxxgk/fdzdgknr/zcwj/nszfwj/szf/202302/t20230208_2274203.html)  
+
+2. **工业碳达峰方案**  
+2023年实施，优化能源结构促达峰。  
+[来源](https://www.miit.gov.cn/jgsj/jns/dfdt/art/2023/art_77ae4f2a46414393815d31cab6bb2b8d.html)  
+
+---  
+
+## 2023-03-01 (Event) - 置信度: 0.57  
+1. **节能减排方案**  
+推动能源结构转型，控制化石能源消费。  
+[来源](http://www.Shaanxi.gov.cn/zfxxgk/fdzdgknr/zcwj/nszfwj/szf/202302/t20230208_2274203.html)  
+
+2. **韩国工业园区**  
+2023年投建高性能铜箔和电池材料项目。  
+[来源](https://global.chinadaily.com.cn/a/202406/06/WS66615e55a31082fc043cb413.html)  
+
+---  
+（其余5个转折点未发现有效信息）

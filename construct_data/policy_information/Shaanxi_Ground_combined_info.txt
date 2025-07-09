@@ -1,0 +1,27 @@
+# Shaanxi省/市 Ground部门 碳排放变点相关政策与事件汇总
+
+分析时间: 2025-05-01 16:56:12
+共包含 1 个重要转折点的相关信息
+
+---
+
+## 转折点: 2023-05-06 (Seasonal) - 置信度: 0.59
+
+1. **具体政策名称/事件**：Shaanxi Province “14th Five-Year Plan” Energy-saving and Emission Reduction Work Plan
+**发布/发生时间**：2023年2月
+**责任机构**：Shaanxi Province
+**核心内容**：该计划提出到2025年，非化石能源占能源消费总量的比例达到15%以上，单位GDP二氧化碳排放比2020年降低19%。
+**预期影响**：通过提高非化石能源比例和降低单位GDP二氧化碳排放，减少碳排放。
+**信息来源网址**：[链接](https://www.atlantis-press.com/proceedings/icifde-23/125993173)
+
+2. **具体政策名称/事件**：Shanxi Province Promotes the Development of Distributed Renewable Energy Three-year Action Plan (2023-2025)
+**发布/发生时间**：2023年2月
+**责任机构**：Shanxi Province
+**核心内容**：山西省发布三年行动计划，推动分布式可再生能源发展，旨在提高能源结构中可再生能源的比例。
+**预期影响**：通过增加分布式可再生能源的使用，减少对化石能源的依赖，降低碳排放。
+**信息来源网址**：[链接](https://www.gem.wiki/Power_Sector_Transition_in_Shanxi)
+
+未找到Shaanxi省Ground部门季节性需求变化的官方统计数据以及与Ground部门季节性碳排放相关的地方政府措施和影响Ground部门季节性能源使用的具体项目或举措。
+
+---
+

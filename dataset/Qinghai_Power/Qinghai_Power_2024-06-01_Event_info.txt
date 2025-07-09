@@ -1,0 +1,23 @@
+问题: 搜索Qinghai省/市在2024年06月（2024年03月至2024年08月）影响电力部门碳排放的具体重大事件。请查找：1）大型电厂投产或关停事件；2）可再生能源项目并网事件；3）电力系统重大事故；4）跨区域输电线路建设。必须提供事件名称、发生时间、地点、规模和影响，每条信息必须注明信息来源网址。
+
+回答:
+1. **事件名称**：中国能源的大型水电站在Maqen县投产
+**发生时间**：2024年7月
+**地点**：青海省Maqen县
+**规模**：大型水电站
+**影响**：该水电站的投产将增加青海省的清洁能源供应，有助于减少该省电力部门的碳排放。
+**信息来源网址**：[China Energy's Massive Hydropower Station to Open in March 2024](http://en.sasac.gov.cn/2023/03/16/c_14988.htm)
+
+2. **事件名称**：中国最大的电化学储能设施并网
+**发生时间**：2024年8月19日
+**地点**：青海省
+**规模**：270 MW/1080 MWh项目
+**影响**：通过并网电化学储能设施，青海省能够更好地整合和利用可再生能源，减少对化石能源的依赖，从而降低电力部门的碳排放。
+**信息来源网址**：[China's largest electrochemical storage facility achieves grid connection](https://www.ess-news.com/2024/08/19/chinas-largest-electrochemical-storage-facility-achieves-grid-connection/)
+
+3. **事件名称**：PetroChina在青海建设大规模绿色氢能项目
+**发生时间**：2024年
+**地点**：青海省
+**规模**：大规模绿色氢能项目
+**影响**：该项目将推动青海省氢能产业链的发展，有助于减少电力部门的碳排放。
+**信息来源网址**：[PetroChina's first large-scale hydrogen project starts](https://fuelcellsworks.com/news/petrochinas-first-large-scale-hydrogen-project-starts)

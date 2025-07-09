@@ -1,0 +1,95 @@
+# Shanxi省/市 Industry部门 碳排放变点汇总
+
+分析时间: 2025-05-01 16:56:12
+共10个转折点
+
+---
+
+## 2019-04-01 (Event) - 置信度: 0.56
+1. **山西省能源转型和绿色增长发展政策行动(P170663)**
+   - 时间：2019年7月
+   - 目标：推动煤炭经济向低碳转型，促进经济多元化
+   - 来源：[世界银行](https://documents1.worldbank.org/curated/en/609661563417538196/pdf/Concept-Program-Information-Document-PID-Shanxi-Energy-Transition-and-Green-Growth-Development-Policy-Operation-P170663.pdf)
+
+2. **山西省焦炭产业减产**
+   - 时间：2019年
+   - 成效：两年减产1090万吨，占总量27%
+   - 来源：[中国日报](https://shanxi.chinadaily.com.cn/2021-09/03/c_658728_2.htm)
+
+---
+
+## 2020-01-01 (Event) - 置信度: 0.56
+**山西省钢铁行业超低排放计划**
+- 要求：2020年10月前完成超低排放改造
+- 运输要求：80%清洁运输或新能源车辆
+- 来源：[ELI](https://cibdeg.eli.org/news/shanxis-steel-industry-expected-achieve-ultra-low-emissions-end-year-2020-june-14)
+
+---
+
+## 2020-05-28 (Seasonal) - 置信度: 0.56
+1. **煤炭消费替代政策**
+   - 机构：山西省发改委
+   - 内容：严控煤炭消费增长，淘汰落后产能
+   - 来源：[商务部](https://www.mofcom.gov.cn/zcfb/zgdwjjmywg/art/2021/art_12733a8cdc5a4b9d865f5f9496020dce.html)
+
+2. **风光发电开发政策**
+   - 机构：山西省能源局
+   - 重点：推进集中式风光基地建设
+   - 来源：[中国政府网](https://www.gov.cn/zhengce/zhengceku/2022-03/23/5680759/files/ccc7dffca8f24880a80af12755558f4a.pdf)
+
+---
+
+## 2021-03-01 (Event) - 置信度: 0.68
+1. **分布式可再生能源计划(2023-2025)**
+   - 目标：2025年实现4GW太阳能+1GW风电
+   - 来源：[GEM](https://www.gem.wiki/Power_Sector_Transition_in_Shanxi)
+
+2. **节能降碳行动计划**
+   - 目标：2025年单位GDP能耗降14.5%，非化石能源占比12%
+   - 来源：[GEM](https://www.gem.wiki/Power_Sector_Transition_in_Shanxi)
+
+---
+
+## 2021-06-14 (Seasonal) - 置信度: 0.61
+1. **碳排放管理指南**
+   - 机构：山西省生态环境厅
+   - 内容：建立重点企业碳排放管理体系
+   - 来源：[省生态环境厅](https://sthjt.shanxi.gov.cn/xwzx_1/sxhj/202411/t20241101_9683506.shtml)
+
+2. **碳市场交易**
+   - 成果：96家企业参与，成交5442万吨
+   - 来源：[同上]
+
+---
+
+## 2022-03-01 (Event) - 置信度: 0.67
+1. **钢铁超低排放控制**
+   - 成效：吨钢能耗显著下降
+   - 来源：[中国日报](https://shanxi.chinadaily.com.cn/2022-01/25/c_703563.htm)
+
+2. **2022年行动计划**
+   - 重点：推进焦化、钢铁等行业节能改造
+   - 来源：[中国日报](https://shanxi.chinadaily.com.cn/2022-03/17/c_726803.htm)
+
+---
+
+## 2023-03-01 (Event) - 置信度: 0.69
+1. **节能降碳行动计划(2024-2025)**
+   - 目标：非化石能源占比12%，清洁能源装机50%
+   - 来源：[GEM](https://www.gem.wiki/Power_Sector_Transition_in_Shanxi)
+
+2. **分布式能源计划**
+   - 目标：新增4GW太阳能+1GW风电
+   - 来源：[同上]
+
+---
+
+## 2023-11-16 (Seasonal) - 置信度: 0.70
+1. **钢铁行业排放核算指南**
+   - 机构：生态环境部
+   - 内容：规范钢铁行业排放核算
+   - 来源：[生态环境部](https://www.mee.gov.cn/xxgk/hjyw/202307/t20230712_1035998.shtml)
+
+2. **低碳技术推广**
+   - 内容：发布第四批低碳技术目录
+   - 来源：[同上]

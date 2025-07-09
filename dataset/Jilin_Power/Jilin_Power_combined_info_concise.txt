@@ -1,0 +1,72 @@
+# Jilin省/市 Power部门 碳排放变点汇总
+
+分析时间: 2025-05-01  
+共10个重要转折点  
+
+---
+
+## 2020-03-01 (Event) - 置信度: 0.56  
+**Jilin输电线路结冰事件**  
+- 时间：2020年11月  
+- 影响：179条66kV+线路故障，长春等多地大停电  
+- 来源：[E3S会议论文](https://www.e3s-conferences.org/articles/e3sconf/pdf/2021/36/e3sconf_aepee2021_02011.pdf)  
+
+---
+
+## 2020-12-31 (Event) - 置信度: 0.56  
+1. **煤炭消费限制**  
+- 目标：2025年前≤9000万吨  
+- 来源：[CoalResource](http://coalresource.com/news/4666901/info/en)  
+
+2. **可再生能源配额**  
+- 要求：非水电可再生能源发电量占比9%  
+- 来源：[华北电力大学](https://business.ncepu.edu.cn/docs/20180308144444707132.pdf)  
+
+---
+
+## 2022-08-01 (Event) - 置信度: 0.56  
+1. **碳达峰行动计划**  
+- 时间：2022年7月  
+- 目标：重污染行业能耗降13.5%  
+- 来源：[Trade.gov](https://www.trade.gov/market-intelligence/china-energy-jilin-province-peak-carbon-action-plan)  
+
+2. **"十四五"能源规划**  
+- 目标：新增8GW光伏+22GW风电  
+- 来源：[NEIAAP](https://www.neiaap.org/article/jilin-will-add-8gw-of-pv-generation-and-22gw-of-wind-generation)  
+
+---
+
+## 2022-11-01 (Event) - 置信度: 0.56  
+1. **大安绿氢合成氨项目**  
+- 时间：2022年11月  
+- 投资：296亿元  
+- 来源：[吉林政府网](https://www.gojilin.gov.cn/2022/11/01/c_10176.htm)  
+
+---
+
+## 2023-03-01 (Event) - 置信度: 0.57  
+**15万kW风光项目并网**  
+- 年发电：3.6亿kWh  
+- 来源：[新华网](https://english.news.cn/20231004/6c2923c619bc4ccbadf2410f808ad4e2/c.html)  
+
+---
+
+## 2023-11-01 (Event) - 置信度: 0.56  
+1. **松原氢能产业园**  
+- 产能：11万吨绿氢/年  
+- 来源：[国资委](http://en.sasac.gov.cn/2023/10/11/c_15995.htm)  
+
+2. **碱性电解槽项目**  
+- 投资：1.5亿元  
+- 来源：[吉林政府网](https://www.gojilin.gov.cn/2023/12/07/c_11865.htm)  
+
+---
+
+## 2024-07-01 (Event) - 置信度: 0.56  
+1. **100MW风电项目**  
+- 开发商：北京能源国际  
+- 来源：[Nasdaq](https://www.nasdaq.com/articles/beijing-energy-secures-major-wind-power-project-jilin)  
+
+2. **长岭风电场二期**  
+- 规模：49.5MW  
+- 来源：[Power-Technology](https://www.power-technology.com/data-insights/power-plant-profile-jilin-changling-shuanglong-wind-farm-ii-china/)

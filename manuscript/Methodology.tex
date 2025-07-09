@@ -1,0 +1,323 @@
+\section{Methodology}
+\label{sec:Methodology}
+
+Let $\mathcal{X} = \{\mathbf{x}_1, ..., \mathbf{x}_T\} \in \mathbb{R}^{T \times d_x}$ denote the historical carbon emission time series, where $T$ is the lookback window, $d_x$ is the number of emission features, and $\mathbf{x}_t \in \mathbb{R}^{d_x}$ represents the emission features at time $t$. Let $\mathcal{E} = \{e_1, ..., e_N\}$ be the set of $N$ discrete events, where each event $e_i = (t_i, s_i)$ is characterized by a timestamp $t_i \in [1,T]$ and a textual description $s_i = \{w_1^{(i)}, ..., w_{L_i}^{(i)}\}$ with $L_i$ tokens. Our objective is to learn a mapping function $f_\theta: \mathbb{R}^{T \times d_x} \times \mathcal{E} \rightarrow \mathbb{R}^{H \times d_x}$ that predicts future emissions $\hat{\mathbf{Y}} = \{\hat{\mathbf{y}}_{T+1}, ..., \hat{\mathbf{y}}_{T+H}\}$ over a horizon $H$:
+
+\begin{equation}
+    \hat{\mathbf{Y}} = f_\theta(\mathcal{X}, \mathcal{E})
+\end{equation}
+
+where $\hat{\mathbf{y}}_t \in \mathbb{R}^{d_x}$ is the predicted emission at time $t$.
+
+\subsection{Model Architecture}
+The TimeText framework consists of three core components: (1) a Multi-scale Temporal Encoder that captures hierarchical patterns in emission data, (2) a Contextual Event Encoder that processes event texts, and (3) a Gated Cross-modal Fusion module that dynamically combines temporal and event information. The overall architecture is illustrated in Figure~\ref{fig:architecture}. We now describe each component in detail, providing comprehensive mathematical formulations and implementation details.
+
+\subsection{Multi-scale Temporal Encoder}
+The temporal encoder processes the input sequence $\mathbf{X} \in \mathbb{R}^{T \times d_x}$ through the following steps:
+
+\subsubsection{Input Projection and Positional Encoding}
+First, we project the input features to a $d_{model}$-dimensional space and add sinusoidal position encodings:
+
+\begin{equation}
+    \mathbf{X}_0 = \text{LayerNorm}(\mathbf{X}\mathbf{W}_e + \mathbf{b}_e) + \mathbf{P}
+\end{equation}
+
+where $\mathbf{W}_e \in \mathbb{R}^{d_x \times d_{model}}$ and $\mathbf{b}_e \in \mathbb{R}^{d_{model}}$ are learnable parameters, and $\mathbf{P} \in \mathbb{R}^{T \times d_{model}}$ is the position encoding matrix defined by:
+
+\begin{align}
+    \mathbf{P}_{t,2i} &= \sin\left(\frac{t}{10000^{2i/d_{model}}}\right) \\
+    \mathbf{P}_{t,2i+1} &= \cos\left(\frac{t}{10000^{2i/d_{model}}}\right)
+\end{align}
+
+for $i \in \{1,...,\lfloor d_{model}/2 \rfloor\}$.
+
+\subsubsection{Multi-scale Temporal Attention}
+The core of our temporal modeling is the Multi-scale Temporal Attention (MTA) layer, which captures patterns at different temporal resolutions through both time and frequency domains. For each attention head $h \in \{1,...,H\}$ and scale $s \in \mathcal{S} = \{1, 3, 7, 30\}$, we first extract frequency-domain features using Real Fast Fourier Transform (RFFT):
+
+\begin{equation}
+    \mathcal{F}_s(\mathbf{X}) = \text{RFFT}(\text{AvgPool}_s(\mathbf{X}))
+\end{equation}
+
+where $\text{AvgPool}_s$ performs average pooling with kernel size $s$ to capture patterns at different temporal scales.
+
+For each scale $s$, we compute queries, keys, and values in both time and frequency domains:
+
+\begin{align}
+    \text{Time domain:} & \\
+    \mathbf{Q}_h^s &= \mathbf{X}\mathbf{W}_q^{h,s}, \quad \mathbf{W}_q^{h,s} \in \mathbb{R}^{d_{model} \times d_k} \\
+    \mathbf{K}_h^s &= \mathbf{X}\mathbf{W}_k^{h,s}, \quad \mathbf{W}_k^{h,s} \in \mathbb{R}^{d_{model} \times d_k} \\
+    \mathbf{V}_h^s &= \mathbf{X}\mathbf{W}_v^{h,s}, \quad \mathbf{W}_v^{h,s} \in \mathbb{R}^{d_{model} \times d_v} \\
+    \text{Frequency domain:} & \\
+    \mathbf{Q}_f^{h,s} &= \mathcal{F}_s(\mathbf{X})\mathbf{W}_q^{f,s} \\
+    \mathbf{K}_f^{h,s} &= \mathcal{F}_s(\mathbf{X})\mathbf{W}_k^{f,s} \\
+    \mathbf{V}_f^{h,s} &= \mathcal{F}_s(\mathbf{X})\mathbf{W}_v^{f,s}
+\end{align}
+
+where $\mathbf{W}_q^{f,s}, \mathbf{W}_k^{f,s}, \mathbf{W}_v^{f,s} \in \mathbb{R}^{d_{model} \times d_k}$ are learnable parameters for frequency-domain transformations.
+
+The attention weights are computed using a hybrid of time and frequency domain information with a causal mask $\mathbf{M}_s \in \mathbb{R}^{T \times T}$:
+
+\begin{equation}
+    \mathbf{A}_h^s = \text{softmax}\left(\frac{\mathbf{Q}_h^s{\mathbf{K}_h^s}^\top + \text{iRFFT}(\mathbf{Q}_f^{h,s}{\mathbf{K}_f^{h,s}}^H)}{\sqrt{d_k}} + \mathbf{M}_s\right)
+\end{equation}
+
+where $\text{iRFFT}$ is the inverse RFFT, $^H$ denotes conjugate transpose, and $\mathbf{M}_s$ enforces causality by setting $M_{s,ij} = -\infty$ if $i < j$ or $|i-j| > s$, and 0 otherwise.
+
+The output of each head combines both time and frequency domain information:
+
+\begin{equation}
+    \text{head}_h^s = \lambda \mathbf{A}_h^s\mathbf{V}_h^s + (1-\lambda)\text{iRFFT}(\mathbf{A}_h^s\mathbf{V}_f^{h,s})
+\end{equation}
+
+where $\lambda$ is a learnable parameter that balances between time and frequency domain representations.
+
+\subsubsection{Multi-head Aggregation and Gating}
+The multi-head outputs are concatenated and projected:
+
+\begin{equation}
+    \text{MHA}_s(\mathbf{X}) = \text{Concat}(\text{head}_1^s, ..., \text{head}_H^s)\mathbf{W}_o^s
+\end{equation}
+
+where $\mathbf{W}_o^s \in \mathbb{R}^{Hd_v \times d_{model}}$ is a learnable projection matrix.
+
+A gating mechanism is used to dynamically combine information from different scales:
+
+\begin{equation}
+    \mathbf{g}_t^s = \sigma(\mathbf{W}_g^s[\mathbf{X}_t; \text{MHA}_s(\mathbf{X})_t] + \mathbf{b}_g^s)
+\end{equation}
+
+where $\sigma$ is the sigmoid function, $\mathbf{W}_g^s \in \mathbb{R}^{2d_{model} \times d_{model}}$, and $\mathbf{b}_g^s \in \mathbb{R}^{d_{model}}$ are learnable parameters.
+
+The final output for each time step is computed as:
+
+\begin{equation}
+    \mathbf{h}_t = \sum_{s \in \mathcal{S}} \mathbf{g}_t^s \odot \text{FFN}_s(\text{MHA}_s(\mathbf{X})_t)
+\end{equation}
+
+where $\text{FFN}_s$ is a two-layer feed-forward network with GELU activation:
+
+\begin{equation}
+    \text{FFN}_s(\mathbf{x}) = \mathbf{W}_2^s\text{GELU}(\mathbf{W}_1^s\mathbf{x} + \mathbf{b}_1^s) + \mathbf{b}_2^s
+\end{equation}
+
+with $\mathbf{W}_1^s \in \mathbb{R}^{d_{ff} \times d_{model}}$, $\mathbf{W}_2^s \in \mathbb{R}^{d_{model} \times d_{ff}}$, and $\text{GELU}(x) = x\Phi(x)$ where $\Phi(\cdot)$ is the standard Gaussian CDF.
+
+\subsection{Contextual Event Encoder}
+The event encoder processes each event's textual description to capture semantic information and temporal dynamics. For each event $e_i = (t_i, s_i)$ with text $s_i = \{w_1^{(i)}, ..., w_{L_i}^{(i)}\}$, we apply the following steps:
+
+\subsubsection{Token-level Encoding}
+First, we obtain contextualized token embeddings using a pre-trained BERT model:
+
+\begin{equation}
+    \mathbf{E}_i = \text{BERT}([\text{[CLS]}, w_1^{(i)}, ..., w_{L_i}^{(i)}, \text{[SEP]}])
+\end{equation}
+
+where $\mathbf{E}_i \in \mathbb{R}^{(L_i+2) \times d_{bert}}$ contains contextualized representations for all tokens, including the special [CLS] and [SEP] tokens.
+
+\subsubsection{Bidirectional Sequential Modeling}
+We then process the token embeddings using a bidirectional GRU to capture sequential dependencies:
+
+\begin{align}
+    \overrightarrow{\mathbf{h}}_l &= \text{GRU}_\rightarrow(\mathbf{E}_{i,l}, \overrightarrow{\mathbf{h}}_{l-1}) \\
+    \overleftarrow{\mathbf{h}}_l &= \text{GRU}_\leftarrow(\mathbf{E}_{i,l}, \overleftarrow{\mathbf{h}}_{l+1})
+\end{align}
+
+where $\overrightarrow{\mathbf{h}}_l, \overleftarrow{\mathbf{h}}_l \in \mathbb{R}^{d_{gru}}$ are the hidden states at position $l$ for the forward and backward passes, respectively. The initial states are zero-initialized: $\overrightarrow{\mathbf{h}}_0 = \mathbf{0}$ and $\overleftarrow{\mathbf{h}}_{L_i+1} = \mathbf{0}$.
+
+\subsubsection{Multi-head Self-Attention}
+To capture global dependencies between tokens, we apply multi-head self-attention to the concatenated hidden states:
+
+\begin{equation}
+    \mathbf{H}_i = [\overrightarrow{\mathbf{h}}_1, ..., \overrightarrow{\mathbf{h}}_{L_i}, \overleftarrow{\mathbf{h}}_1, ..., \overleftarrow{\mathbf{h}}_{L_i}]^\top \in \mathbb{R}^{2L_i \times d_{gru}}
+\end{equation}
+
+For each head $h \in \{1,...,H_e\}$, we compute:
+
+\begin{align}
+    \mathbf{Q}_e^h &= \mathbf{H}_i\mathbf{W}_e^{Q,h}, \quad \mathbf{W}_e^{Q,h} \in \mathbb{R}^{d_{gru} \times d_k} \\
+    \mathbf{K}_e^h &= \mathbf{H}_i\mathbf{W}_e^{K,h}, \quad \mathbf{W}_e^{K,h} \in \mathbb{R}^{d_{gru} \times d_k} \\
+    \mathbf{V}_e^h &= \mathbf{H}_i\mathbf{W}_e^{V,h}, \quad \mathbf{W}_e^{V,h} \in \mathbb{R}^{d_{gru} \times d_v}
+\end{align}
+
+The attention weights and output for each head are computed as:
+
+\begin{equation}
+    \mathbf{A}_e^h = \text{softmax}\left(\frac{\mathbf{Q}_e^h{\mathbf{K}_e^h}^\top}{\sqrt{d_k}}\right) \in \mathbb{R}^{2L_i \times 2L_i}
+\end{equation}
+
+\begin{equation}
+    \text{head}_e^h = \mathbf{A}_e^h\mathbf{V}_e^h \in \mathbb{R}^{2L_i \times d_v}
+\end{equation}
+
+The multi-head outputs are concatenated and projected:
+
+\begin{equation}
+    \mathbf{Z}_i = \text{Concat}(\text{head}_e^1, ..., \text{head}_e^{H_e})\mathbf{W}_e^O
+\end{equation}
+
+where $\mathbf{W}_e^O \in \mathbb{R}^{H_ed_v \times d_{model}}$ is a learnable projection matrix.
+
+\subsubsection{Event-level Representation}
+The final event representation is obtained by max-pooling over the sequence dimension and applying a linear projection:
+
+\begin{equation}
+    \mathbf{z}_i = \text{MaxPool}(\mathbf{Z}_i)\mathbf{W}_p + \mathbf{b}_p
+\end{equation}
+
+where $\mathbf{W}_p \in \mathbb{R}^{d_{model} \times d_{model}}$ and $\mathbf{b}_p \in \mathbb{R}^{d_{model}}$ are learnable parameters.
+
+\subsection{Gated Cross-modal Fusion}
+The fusion module dynamically combines the temporal representations $\mathbf{H}_t \in \mathbb{R}^{T \times d_{model}}$ with event representations $\{\mathbf{z}_i\}_{i=1}^N$ through the following steps:
+
+\subsubsection{Event-Temporal Cross-Attention}
+For each time step $t \in \{1,...,T\}$, we compute attention weights between the temporal representation $\mathbf{h}_t$ and all event representations:
+
+\begin{equation}
+    \alpha_{t,i} = \frac{\exp(\mathbf{h}_t^\top \mathbf{W}_a \mathbf{z}_i / \sqrt{d_{model}})}{\sum_{j=1}^N \exp(\mathbf{h}_t^\top \mathbf{W}_a \mathbf{z}_j / \sqrt{d_{model}})}
+\end{equation}
+
+where $\mathbf{W}_a \in \mathbb{R}^{d_{model} \times d_{model}}$ is a learnable weight matrix. The context vector for time $t$ is computed as:
+
+\begin{equation}
+    \mathbf{c}_t = \sum_{i=1}^N \alpha_{t,i} \mathbf{z}_i
+\end{equation}
+
+\subsubsection{Gating Mechanism}
+A gating mechanism controls the information flow between the original temporal representation and the event-enriched context:
+
+\begin{equation}
+    \mathbf{g}_t = \sigma(\mathbf{W}_g[\mathbf{h}_t; \mathbf{c}_t; \mathbf{h}_t \odot \mathbf{c}_t] + \mathbf{b}_g)
+\end{equation}
+
+where $\mathbf{W}_g \in \mathbb{R}^{3d_{model} \times d_{model}}$, $\mathbf{b}_g \in \mathbb{R}^{d_{model}}$ are learnable parameters, and $\odot$ denotes element-wise multiplication.
+
+The fused representation is computed as:
+
+\begin{equation}
+    \tilde{\mathbf{h}}_t = \mathbf{g}_t \odot \text{tanh}(\mathbf{W}_f[\mathbf{h}_t; \mathbf{c}_t]) + (1-\mathbf{g}_t) \odot \mathbf{h}_t
+\end{equation}
+
+where $\mathbf{W}_f \in \mathbb{R}^{2d_{model} \times d_{model}}$ is a learnable weight matrix.
+
+\subsubsection{Temporal Convolution Network}
+We apply a stack of temporal convolution layers with increasing dilation rates to capture multi-scale temporal patterns:
+
+\begin{equation}
+    \mathbf{H}_{fusion} = \text{TCN}(\tilde{\mathbf{H}})
+\end{equation}
+
+where $\text{TCN}$ consists of $L_{tcn}$ layers with kernel size $K$ and dilation rates $[2^0, 2^1, ..., 2^{L_{tcn}-1}]$. Each layer applies causal convolutions with residual connections and layer normalization.
+
+The final prediction is computed as:
+
+\begin{equation}
+    \hat{\mathbf{Y}} = \text{TCN}(\tilde{\mathbf{H}})\mathbf{W}_o + \mathbf{b}_o
+\end{equation}
+
+where $\mathbf{W}_o \in \mathbb{R}^{d_{model} \times d_x}$ and $\mathbf{b}_o \in \mathbb{R}^{d_x}$ are learnable parameters.
+
+\subsection{Training Objective and Optimization}
+The model is trained end-to-end using a combination of multiple loss terms:
+
+\subsubsection{Forecasting Loss}
+The primary loss is the mean squared error between predicted and actual emissions:
+
+\begin{equation}
+    \mathcal{L}_{mse} = \frac{1}{H} \sum_{t=T+1}^{T+H} \|\hat{\mathbf{y}}_t - \mathbf{y}_t\|_2^2
+\end{equation}
+
+\subsubsection{Temporal Consistency Loss}
+To ensure smooth predictions, we add a temporal consistency term:
+
+\begin{equation}
+    \mathcal{L}_{temp} = \frac{1}{H-1} \sum_{t=T+2}^{T+H} \|(\hat{\mathbf{y}}_t - \hat{\mathbf{y}}_{t-1}) - (\mathbf{y}_t - \mathbf{y}_{t-1})\|_1
+\end{equation}
+
+\subsubsection{Event-Attention Regularization}
+To encourage the model to attend to relevant events, we add an entropy regularization term:
+
+\begin{equation}
+    \mathcal{L}_{attn} = -\frac{1}{T} \sum_{t=1}^T \sum_{i=1}^N \alpha_{t,i} \log \alpha_{t,i}
+\end{equation}
+
+The final training objective is a weighted sum of these losses:
+
+\begin{equation}
+    \mathcal{L} = \mathcal{L}_{mse} + \lambda_1 \mathcal{L}_{temp} + \lambda_2 \mathcal{L}_{attn} + \lambda_3 \|\Theta\|_2^2
+\end{equation}
+
+where $\lambda_1, \lambda_2, \lambda_3$ are hyperparameters controlling the relative importance of each term, and $\|\Theta\|_2^2$ is the L2 regularization term.
+
+\subsection{Algorithm}
+The complete training procedure for TimeText is presented in Algorithm~\ref{alg:training}.
+
+\begin{algorithm}[t]
+\caption{Training Procedure for TimeText}
+\label{alg:training}
+\begin{algorithmic}[1]
+\Require Training dataset $\mathcal{D} = \{(\mathcal{X}_i, \mathcal{E}_i, \mathbf{Y}_i)\}_{i=1}^M$,
+learning rate $\eta$, batch size $B$, number of epochs $E$
+\State Initialize model parameters $\Theta$ with He initialization
+\For{epoch $= 1$ to $E$}
+    \State Shuffle training data
+    \For{batch $\{(\mathcal{X}_i, \mathcal{E}_i, \mathbf{Y}_i)\}_{i=1}^B$ in $\mathcal{D}$}
+        \State \textbf{// Forward pass}
+        \State $\mathbf{H}_t \gets \text{TemporalEncoder}(\mathcal{X}_i)$
+        \State $\{\mathbf{z}_i\}_{i=1}^N \gets \text{EventEncoder}(\mathcal{E}_i)$
+        \State $\hat{\mathbf{Y}}_i \gets \text{CrossModalFusion}(\mathbf{H}_t, \{\mathbf{z}_i\}_{i=1}^N)$
+        
+        \State \textbf{// Compute losses}
+        \State $\mathcal{L}_{mse} \gets \frac{1}{BH}\sum_{i=1}^B \sum_{t=1}^H \|\hat{\mathbf{y}}_{i,t} - \mathbf{y}_{i,t}\|_2^2$
+        \State $\mathcal{L}_{temp} \gets \frac{1}{B(H-1)}\sum_{i=1}^B \sum_{t=2}^H \|\Delta\hat{\mathbf{y}}_{i,t} - \Delta\mathbf{y}_{i,t}\|_1$
+        \State $\mathcal{L}_{attn} \gets -\frac{1}{BT}\sum_{i=1}^B \sum_{t=1}^T \sum_{j=1}^N \alpha_{i,t,j} \log \alpha_{i,t,j}$
+        \State $\mathcal{L} \gets \mathcal{L}_{mse} + \lambda_1\mathcal{L}_{temp} + \lambda_2\mathcal{L}_{attn} + \lambda_3\|\Theta\|_2^2$
+        
+        \State \textbf{// Backward pass and optimization}
+        \State $\Theta \gets \Theta - \eta \nabla_\Theta \mathcal{L}$
+    \EndFor
+    \State \textbf{// Validation}
+    \State Evaluate on validation set
+    \State Update learning rate $\eta$ if validation loss plateaus
+\EndFor
+\end{algorithmic}
+\end{algorithm}
+
+\subsection{Computational Complexity Analysis}
+We analyze the computational complexity of each component in TimeText:
+
+\subsubsection{Multi-scale Temporal Encoder}
+The temporal encoder's complexity is dominated by the multi-scale self-attention mechanism. For each scale $s \in \mathcal{S}$:
+\begin{itemize}
+    \item Self-attention: $O(T^2 \cdot d_{model} \cdot H)$
+    \item Feed-forward network: $O(T \cdot d_{model} \cdot d_{ff})$
+\end{itemize}
+The total complexity for $|\mathcal{S}|$ scales is $O(|\mathcal{S}| \cdot T \cdot d_{model} \cdot (T \cdot H + d_{ff}))$.
+
+\subsubsection{Contextual Event Encoder}
+The event encoder processes each event independently:
+\begin{itemize}
+    \item BERT encoding: $O(\sum_{i=1}^N L_i^2 \cdot d_{bert})$
+    \item BiGRU: $O(\sum_{i=1}^N L_i \cdot d_{gru}^2)$
+    \item Self-attention: $O(\sum_{i=1}^N L_i^2 \cdot d_{model})$
+\end{itemize}
+where $L_i$ is the sequence length of the $i$-th event.
+
+\subsubsection{Gated Cross-modal Fusion}
+The fusion module's complexity comes from:
+\begin{itemize}
+    \item Cross-attention: $O(T \cdot N \cdot d_{model}^2)$
+    \item TCN: $O(T \cdot K \cdot L_{tcn} \cdot d_{model}^2)$
+    \item Gating mechanism: $O(T \cdot d_{model}^2)$
+\end{itemize}
+
+\subsubsection{Overall Complexity}
+The total complexity per training iteration is:
+\begin{equation*}
+O\left(
+\underbrace{|\mathcal{S}| \cdot T \cdot d_{model} (T \cdot H + d_{ff})}_{\text{Temporal Encoder}} +
+\underbrace{\sum_{i=1}^N L_i (L_i \cdot d_{bert} + d_{gru}^2)}_{\text{Event Encoder}} +
+\underbrace{T \cdot d_{model}^2 (N + K \cdot L_{tcn})}_{\text{Cross-modal Fusion}}
+\right)
+\end{equation*}
+
+For typical hyperparameters ($T=336$, $N=100$, $d_{model}=512$, $H=8$, $|\mathcal{S}|=4$, $d_{ff}=2048$), the model processes each sequence in under 100ms on a V100 GPU, making it suitable for real-time applications. The memory footprint is $O(T^2 + T \cdot d_{model} + N \cdot L_{max}^2)$, where $L_{max}$ is the maximum event length.

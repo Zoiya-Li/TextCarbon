@@ -1,0 +1,82 @@
+# 北京电力部门碳排放政策与事件汇总
+
+分析时间: 2025-05-01 16:56:12
+共10个重要转折点
+
+---
+
+## 2019-04-01 (置信度:0.57)
+1. **北京华能热电厂燃煤机组关停**
+   - 时间：2019年3月18日
+   - 规模：四台燃煤机组
+   - 影响：结束北京燃煤发电历史
+   - 来源：[人民网](https://www.thepaper.cn/newsDetail_forward_3705571)
+
+2. **北京三大燃煤电厂关停**
+   - 时间：2014-2015年
+   - 影响：年减燃煤680万吨，减排SO₂7400吨、NOx14000吨
+   - 来源：[财新网](https://www.caixin.com/2021-08-19/101757171.html)
+
+---
+
+## 2020-11-01 (置信度:0.57)
+1. **北京清洁空气行动计划**
+   - 时间：2013-2020年
+   - 措施：工业锅炉改造、排放标准升级
+   - 来源：[MDPI](https://www.mdpi.com/2071-1050/17/9/3940)
+
+2. **北京垃圾分类政策**
+   - 时间：2020年5月
+   - 影响：优化废物处理系统减排
+   - 来源：[Springer](https://link.springer.com/article/10.1007/s10163-024-01985-9)
+
+---
+
+## 2022-11-01 (置信度:0.57)
+1. **北京碳达峰方案**
+   - 时间：2022年10月
+   - 目标：2030年可再生能源占比25%
+   - 来源：[Enviliance](https://enviliance.com/regions/east-asia/cn/report_8451)
+
+2. **承德抽水蓄能电站**
+   - 时间：2022年11月
+   - 影响：增强电网调峰能力
+   - 来源：[新华网](https://english.news.cn/20211015/C9A30235B8F00001E89C15F4112913C8/c.html)
+
+---
+
+## 2023-03-01 (置信度:0.57)
+1. **北京可再生能源计划**
+   - 目标：2025年国企可再生能源占比15%，2030年25%
+   - 来源：[北京市政府](https://english.beijing.gov.cn/latest/news/202301/t20230111_2896115.html)
+
+2. **张北柔性直流工程**
+   - 时间：2023年2月
+   - 影响：输送风电光伏至北京
+   - 来源：[中国日报](https://epaper.chinadaily.com.cn/a/202302/09/WS63e44ddea3107776898867b7.html)
+
+---
+
+## 2024-04-01 (置信度:0.57)
+1. **中国新批煤电项目减少**
+   - 时间：2024上半年
+   - 影响：减缓碳排放增长
+   - 来源：[AP News](https://apnews.com/article/china-coal-plant-approval-permit-greenpeace-72f2c457e3ee6f09aef464a017acae2d)
+
+2. **山西6GW风电项目**
+   - 时间：2024年
+   - 影响：为北京供绿电
+   - 来源：[Recharge News](https://www.rechargenews.com/energy-transition/china-starts-work-on-massive-green-project-to-power-beijing/2-1-1580195)
+
+---
+
+## 2024-06-01 (置信度:0.57)
+1. **"太阳能长城"项目**
+   - 目标：2030年100GW
+   - 影响：支持北京绿电供应
+   - 来源：[opentools.ai](https://opentools.ai/news/chinas-solar-megaproject-the-solar-great-wall-to-power-beijing-by-2030)
+
+2. **未来科学城全绿电**
+   - 时间：2024年
+   - 减排：3万吨CO₂
+   - 来源：[北京市政府](https://english.beijing.gov.cn/latest/news/202404/t20240409_3612453.html)

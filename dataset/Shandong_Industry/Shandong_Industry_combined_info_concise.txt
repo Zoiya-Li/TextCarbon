@@ -1,0 +1,60 @@
+# Shandong省/市 Industry部门 碳排放变点相关政策与事件汇总  
+分析时间: 2025-05-01 16:56:12  
+
+## 转折点: 2019-05-01 (Event) - 置信度: 0.61  
+1. **事件名称**：山东省发布污染减排和碳排放协同治理方案  
+**时间**：2019年5月23日  
+**影响**：多部门联合推动产业、能源、交通结构优化，减少工业碳排放。  
+**来源**：[山东省生态环境厅](https://climatecooperation.cn/climate/shandong-province-launches-implementation-plan-for-synergizing-pollution-reduction-and-carbon-mitigation/)  
+
+## 转折点: 2021-03-01 (Event) - 置信度: 0.68  
+1. **事件名称**：山东省限制新工业项目碳排放  
+**时间**：2021年6月22日  
+**影响**：水泥、炼油、铝和煤电行业新项目需减少20%煤炭使用。  
+**来源**：[Nasdaq](https://www.nasdaq.com/articles/chinas-shandong-to-limit-carbon-emission-at-new-industrial-projects-2021-06-22)  
+
+## 转折点: 2022-03-01 (Event) - 置信度: 0.68  
+1. **事件名称**：《山东省碳达峰实施方案》发布  
+**时间**：2022年12月28日  
+**影响**：目标2025年非化石能源消费占比13%，单位GDP碳排放降20.5%；2030年占比20%，碳排放较2005年降超68%。  
+**来源**：[Climate Cooperation](https://climatecooperation.cn/climate/implementation-plan-for-carbon-dioxide-peaking-in-shandong-province/)  
+
+2. **事件名称**：青岛市新经济产业园改造  
+**时间**：2022年  
+**影响**：5500㎡闲置建筑改造为数字化园区，提升能效。  
+**来源**：[China Daily](http://qingdao.chinadaily.com.cn/shinan/2023-03/31/c_874347.htm)  
+
+## 转折点: 2022-12-01 (Event) - 置信度: 0.66  
+1. **事件名称**：山东省绿色低碳高质量发展试点区建设  
+**时间**：2022年9月  
+**影响**：推动传统产业绿色转型，提升化石能源清洁利用。  
+**来源**：[China.org.cn](http://www.china.org.cn/china/2022-09/02/content_78402527.htm)  
+
+2. **事件名称**：高耗能行业碳排放替代措施  
+**时间**：2022年11月29日  
+**影响**：钢铁、铁合金等16个行业通过关停改造减排。  
+**来源**：[S&P Global](https://www.spglobal.com/commodity-insights/en/news-research/latest-news/energy-transition/120121-chinese-industrial-hub-shandong-in-push-to-target-high-polluting-projects)  
+
+## 转折点: 2023-03-01 (Event) - 置信度: 0.69  
+1. **事件名称**：山东省“替代碳排放减少措施”  
+**时间**：2023年3月  
+**影响**：鼓励企业购买绿电、参与碳交易减排。  
+**来源**：[LinkedIn](https://www.linkedin.com/pulse/purchase-green-power-expected-takeoff-shandong-provincial-sharon-feng)  
+
+## 转折点: 2024-02-01 (Event) - 置信度: 0.65  
+1. **事件名称**：山东省“十强产业”行动计划  
+**时间**：2024年  
+**影响**：培育200家绿色工厂，工业能耗降超4%。  
+**来源**：[Select Shandong](https://en.selectshandong.com/syzx/ywxx/559008512434245.shtml)  
+
+## 转折点: 2024-07-01 (Event) - 置信度: 0.67  
+1. **事件名称**：山东省重大项目集中开工  
+**时间**：2024年3月8日  
+**影响**：1007个项目含清洁能源，推动绿色转型。  
+**来源**：[China Daily](https://shandong.chinadaily.com.cn/2024-03/08/c_969166.htm)  
+
+## 转折点: 2024-09-01 (Event) - 置信度: 0.63  
+1. **事件名称**：碳排放交易市场扩大  
+**时间**：2024年9月  
+**影响**：水泥、钢铁、电解铝行业纳入全国碳市场。  
+**来源**：[Climate Cooperation](https://climatecooperation.cn/climate/implementation-plan-for-carbon-dioxide-peaking-in-shandong-province/)

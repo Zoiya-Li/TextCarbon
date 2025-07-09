@@ -1,0 +1,67 @@
+# 吉林电力部门碳排放大事记（2020-2024）
+
+分析时间：2025年5月1日下午4点56分
+共找到10个关键节点
+
+---
+
+## 2020年3月：输电线路结冰事故（可信度56%）
+
+2020年11月那会儿，吉林出了件大事：
+- 长春、吉林、四平等地179条高压电线结冰跳舞
+- 导致大范围停电，电网差点崩了
+- 详细报告在这：[输电线路结冰事件分析](https://www.e3s-conferences.org/articles/e3sconf/pdf/2021/36/e3sconf_aepee2021_02011.pdf)
+
+---
+
+## 2020年底：煤炭和新能源政策（可信度56%）
+
+这一年吉林定了两个重要规矩：
+1. 煤炭限令：2025年前煤炭用量不能超9000万吨
+2. 绿电指标：要求9%的电必须来自风电光伏（水电不算）
+[煤炭政策原文](http://coalresource.com/news/4666901/info/en)｜[绿电标准](https://business.ncepu.edu.cn/docs/20180308144444707132.pdf)
+
+---
+
+## 2022年8月：双碳行动开搞（可信度56%）
+
+吉林开始动真格的了：
+- 高污染行业要省13.5%的能源
+- 准备狂建光伏风电：光伏800万千瓦+风电2200万千瓦
+[行动方案](https://www.trade.gov/market-intelligence/china-energy-jilin-province-peak-carbon-action-plan)｜[能源规划](https://www.neiaap.org/article/jilin-will-add-8gw-of-pv-generation-and-22gw-of-wind-generation-as-part-of-its-14th-five-year-plan)
+
+---
+
+## 2022年11月：氢能大项目启动（可信度56%）
+
+吉林开始玩氢能了：
+- 大安风光制绿氢项目上马
+- 要建"中国北方氢谷"
+[政府公告](https://www.gojilin.gov.cn/2022/11/01/c_10176.htm)
+
+---
+
+## 2023年3月：风光项目并网（可信度57%）
+
+新上了15万千瓦风光电：
+- 一年能发3.6亿度电
+- 够当地1/4用电量
+[新闻报道](https://english.news.cn/20231004/6c2923c619bc4ccbadf2410f808ad4e2/c.html)
+
+---
+
+## 2023年11月：氢能再发力（可信度56%）
+
+两个氢能大动作：
+1. 松原投296亿搞绿氢绿氨
+2. 洮南建东北最大电解槽
+[国资委报道](http://en.sasac.gov.cn/2023/10/11/c_15995.htm)｜[政府公告](https://www.gojilin.gov.cn/2023/12/07/c_11865.htm)
+
+---
+
+## 2024年：风电项目扎堆（可信度56%-57%）
+
+这两年风电项目特别多：
+- 北京能源的10万千瓦项目
+- 长岭二期4.95万千瓦项目
+[风电项目详情](https://www.nasdaq.com/articles/beijing-energy-secures-major-wind-power-project-jilin)｜[二期介绍](https://www.power-technology.com/data-insights/power-plant-profile-jilin-changling-shuanglong-wind-farm-ii-china/)

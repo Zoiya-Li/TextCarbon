@@ -1,0 +1,73 @@
+# Qinghai省/市 Industry部门 碳排放变点汇总
+
+分析时间: 2025-05-01 16:56:12
+共10个转折点
+
+---
+
+## 2021-03-01 (Event) - 置信度: 0.57
+1. **事件**：青海启动10.9GW风电光伏基地建设
+**时间**：2021年3月
+**地点**：海南州、海西州
+**规模**：8GW太阳能+2.5GW风电+400MW光热，总投资650亿元
+**影响**：助力2030碳达峰/2060碳中和目标
+**来源**：[CGTN](https://news.cgtn.com/news/2021-10-24/China-s-Qinghai-begins-building-10-9-GW-new-energy-power-projects-14Csnyj6a9G/index.html)
+
+---
+
+## 2022-03-01 (Event) - 置信度: 0.57
+1. **事件**：Envision零碳工业园建设
+**地点**：格尔木市
+**影响**：整合可再生能源减少碳排放
+**来源**：[seetao](https://www.seetao.com/details/172846.html)
+
+2. **事件**：格尔木盐湖绿色工业园
+**影响**：延长绿色电力-铝产业链
+**来源**：[metal](https://news.metal.com/newscontent/103160784)
+
+---
+
+## 2022-06-22 (Seasonal) - 置信度: 0.65
+1. **政策**：《重点领域节能降碳技改方案》
+**机构**：青海省发改委
+**内容**：推动钢铁/有色/化工/建材行业节能技改
+**来源**：[shui5](https://www.shui5.cn/article/9a/173852.html)
+
+2. **政策**：《碳达峰实施方案》
+**内容**：构建"1+16+23"政策体系
+**来源**：[bjx](https://news.bjx.com.cn/html/20220207/1202690.shtml)
+
+3. **项目**：第二批风光基地
+**规模**：540万kW光伏+120万kW风电+40万kW光热
+**来源**：[bjx](https://news.bjx.com.cn/html/20220930/1258577.shtml)
+
+---
+
+## 2022-10-01 (Event) - 置信度: 0.56
+1. **事件**：碳达峰实施方案通过
+**时间**：2022年12月
+**来源**：[energychinaforum](http://en.energychinaforum.com/news/detail/0_66632.html)
+
+2. **事件**：新能源外送能力提升80万kW
+**地点**：海南州
+**来源**：[gov.cn](https://english.www.gov.cn/news/topnews/202302/01/content_WS63da3061c6d0a757729e63cb.html)
+
+---
+
+## 2023-03-01 (Event) - 置信度: 0.57
+1. **事件**：海西州可再生能源基地
+**规模**：165GW（格尔木137GW）
+**影响**：通过特高压外送电力
+**来源**：[energy-proceedings](https://www.energy-proceedings.org/wp-content/uploads/cue2023/1696492037.pdf)
+
+2. **事件**：海南州风光电厂
+**规模**：42GW
+**来源**：[同上]
+
+3. **事件**：格尔木盐湖绿色工业园
+**影响**：绿色铝产业链
+**来源**：[metal](https://news.metal.com/newscontent/103160784)
+
+---
+
+（其他5个转折点无有效信息）

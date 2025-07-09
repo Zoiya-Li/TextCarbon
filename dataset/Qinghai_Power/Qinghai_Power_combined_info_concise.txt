@@ -1,0 +1,80 @@
+# 青海省电力部门碳排放关键事件汇总
+
+## 2019-11-01
+1. **Golog 330 kV第二回线路工程投产**
+- 时间：2020年1月12日
+- 地点：果洛州
+- 影响：提升青海电网供电可靠性和清洁能源消纳
+- 来源：[Global Times](https://www.globaltimes.cn/page/202501/1327010.shtml)
+
+2. **格尔木32MW/64MWh储能电站投产**
+- 时间：2019年11月5日
+- 影响：国内首个商业化独立储能电站，促进新能源消纳
+- 来源：[CNESA](http://en.cnesa.org/new-blog/2020/11/24/chinas-first-independent-commercial-energy-storage-station-launches-in-golmud-qinghai-province)
+
+3. **共和2.2GW光伏电站并网**
+- 时间：2022年12月30日
+- 影响：全球最大光伏项目之一，大幅提升清洁能源供应
+- 来源：[华为智能光伏](https://digitalpower.huawei.com/en/fusionsolar/news/detail/155.html)
+
+## 2020-12-31
+1. **海南、海西可再生能源基地完成**
+- 时间：2020年11月
+- 规模：各2.2GW
+- 影响：世界最大可再生能源基地之一，降低化石燃料依赖
+- 来源：[PV-Tech](https://www.pv-tech.org/industry-updates/huawei-and-huanghe-reflect-on-worlds-largest-renewable-energy-base/)
+
+## 2022-10-01
+1. **青海碳达峰实施方案发布**
+- 时间：2022年12月19日
+- 目标：2025年清洁能源装机占比90.6%
+- 来源：[青海省人民政府](http://en.energychinaforum.com/news/detail/0_66632.html)
+
+2. **数据中心实现碳中和**
+- 时间：2022年7月
+- 影响：年减排超30万吨
+- 来源：[人民网](http://en.people.cn/n3/2024/0320/c90000-20147240.html)
+
+## 2023-03-01
+1. **共和2.2GW光伏电站并网**
+- 时间：2023年5月
+- 影响：全球最大光伏电站
+- 来源：[华为数字能源](https://digitalpower.huawei.com/en/fusionsolar/news/detail/155.html)
+
+2. **海南州外送能力提升**
+- 时间：2023年2月
+- 规模：80万千瓦
+- 来源：[CGTN](https://news.cgtn.com/news/2023-12-26/2023-in-review-Major-progress-in-China-s-renewable-energy-projects-1pQst1CpRmw/p.html)
+
+## 2023-11-01
+1. **抽水蓄能电站建设**
+- 时间：2023年8月
+- 影响：提高系统灵活性
+- 来源：[China Daily](https://www.chinadaily.com.cn/a/202308/20/WS64e17ea4a31035260b81d1c1.html)
+
+2. **清洁能源装机达5107万千瓦**
+- 时间：2023年1月
+- 来源：[Xinhua](https://peoplesdaily.pdnews.cn/china/er/30002028681)
+
+## 2024-06-01
+1. **Maqen县水电站投产**
+- 时间：2024年7月
+- 来源：[SASAC](http://en.sasac.gov.cn/2023/03/16/c_14988.htm)
+
+2. **270MW/1080MWh储能并网**
+- 时间：2024年8月
+- 影响：中国最大电化学储能
+- 来源：[ESS News](https://www.ess-news.com/2024/08/19/chinas-largest-electrochemical-storage-facility-achieves-grid-connection/)
+
+3. **绿色氢能项目**
+- 时间：2024年
+- 来源：[FuelCellWorks](https://fuelcellsworks.com/news/petrochinas-first-large-scale-hydrogen-project-starts)
+
+## 2024-09-01
+1. **水电站获批建设**
+- 时间：2024年
+- 来源：[Arab News](https://www.arabnews.com/node/2225831/business-economy)
+
+2. **清洁能源装机超5100万千瓦**
+- 占比：93%
+- 来源：[China Daily](https://www.chinadaily.com.cn/a/202401/26/WS65b32090a3105f21a507e84c.html)

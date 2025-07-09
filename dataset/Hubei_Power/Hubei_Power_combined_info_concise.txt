@@ -1,0 +1,45 @@
+# Hubei省/市 Power部门 碳排放变点汇总
+
+分析时间: 2025-05-01 16:56:12
+共10个转折点
+
+---
+
+## 2020-12-31 (Event) - 置信度: 0.57
+1. **事件**：2020年碳排放交易计划配额分配
+**地点**：湖北省
+**规模**：配额较前一年减少40%
+**影响**：推动电力行业减排
+**来源**：[Carbon Pulse](https://carbon-pulse.com/139213/)
+
+---
+
+## 2023-03-01 (Event) - 置信度: 0.56
+1. **事件**：湖北省"十四五"规划发布
+**时间**：2023年3月
+**内容**：优化能源结构，推动低碳发展
+**来源**：[STIRPAT研究](https://link.springer.com/content/pdf/10.1007/s11356-023-26599-w.pdf)
+
+2. **事件**：湖北省商务合作对话
+**时间**：2023年3月23日
+**地点**：武汉
+**目的**：促进绿色低碳合作
+**来源**：[湖北省政府](https://www.fohb.gov.cn/info/2023-03/20230325165700_4860.html)
+
+---
+
+## 2023-11-01 (Event) - 置信度: 0.57
+1. **事件**：2023年重大项目开工
+**时间**：2023年1月31日
+**规模**：2506个项目，总投资超100亿元
+**影响**：可能增加电力需求和碳排放
+**来源**：[Hubei政府](https://www.huangpi.gov.cn/English/MediaCenter/NewsWithPictures/202302/t20230206_2146287.shtml)
+
+---
+
+## 2024-08-01 (Event) - 置信度: 0.68
+1. **事件**：300MW压缩空气储能电站并网
+**时间**：2024年1月
+**地点**：应城
+**效益**：年减排41.1万吨CO2
+**来源**：[Asia Manufacturing News](https://asiamanufacturingnewstoday.com/2025/01/ceec-built-worlds-first-300-mw-compressed-air-energy-storage-plant-connected-to-grid/)

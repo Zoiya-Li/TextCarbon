@@ -1,0 +1,73 @@
+# Yunnan省/市 Industry部门 碳排放变点汇总
+
+分析时间: 2025-05-01 17:05:12
+共10个转折点
+
+---
+
+## 2019-03-01 (Event) - 置信度: 0.65
+**事件**：云南绿色铝工业园建设  
+**时间**：2019年12月  
+**规模**：省政府与山东魏桥共建  
+**影响**：推动工业低碳转型  
+**来源**：[China Daily](https://www.chinadaily.com.cn/a/201912/19/WS5dfae48ba310cf3e3557f346.html)
+
+---
+
+## 2021-11-01 (Event) - 置信度: 0.56
+**事件**：云南省铝冶炼厂减产  
+**时间**：2021年9月  
+**规模**：减产30%  
+**影响**：实现减排目标  
+**来源**：[Caixin](https://www.caixinglobal.com/2021-09-14/yunnan-tightens-aluminum-production-curbs-in-green-push-101772781.html)
+
+---
+
+## 2022-03-01 (Event) - 置信度: 0.68
+1. **事件**：云南碳中和示范工业园建设  
+**时间**：2022年3月  
+**影响**：重大省级减排项目  
+**来源**：[Seetao](https://www.seetao.com/details/165543.html)
+
+2. **事件**：裕隆新能源电池隔膜项目  
+**时间**：2022年3月  
+**规模**：年产16亿平方米  
+**来源**：[Seetao](https://www.seetao.com/details/148044.html)
+
+3. **事件**：5G大数据产业园  
+**投资**：28.6亿元  
+**来源**：[Invest in China](https://investinchina.chinadaily.com.cn/s/202203/03/WS622029f9498e6a12c122175a/yunnan-sees-start-of-129-projects-with-60-billion-yuan-investment.html)
+
+---
+
+## 2022-08-01 (Event) - 置信度: 0.56
+**事件**：碳中和示范工业园建设  
+**影响**：推动工业低碳转型  
+**来源**：[Seetao](https://www.seetao.com/details/165543.html)
+
+---
+
+## 2022-10-01 (Event) - 置信度: 0.56
+**事件**：昆明低碳城市战略  
+**领域**：工业/能源/交通/建筑  
+**来源**：[ADB](https://www.adb.org/projects/43051-012/main)
+
+---
+
+## 2022-12-01 (Event) - 置信度: 0.56
+**事件**：工业碳排放减少  
+**原因**：电力结构调整  
+**来源**：[ADB](https://www.adb.org/projects/43051-012/main)
+
+---
+
+## 2023-03-01 (Event) - 置信度: 0.69
+1. **事件**：CCUS技术示范  
+**时间**：2022-2023  
+**规模**：30万美元资助  
+**目标**：支持碳达峰  
+**来源**：[ADB](https://www.adb.org/sites/default/files/project-documents/55035/55035-001-tar-en.pdf)
+
+2. **事件**：绿色铝产业园  
+**产值**：183.3亿元  
+**来源**：[Alcircle](https://www.alcircle.com/news/yunnan-green-aluminum-innovation-industrial-parks-production-value-to-attain-rmb-18-33-billion-in-2023-99199)

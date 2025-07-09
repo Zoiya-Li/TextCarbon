@@ -1,0 +1,2 @@
+Total files processed: 100
+Total significant change points found: 997

@@ -1,0 +1,93 @@
+# Shandong省电力部门碳排放关键事件汇总
+
+分析时间: 2025-05-01 16:56:12
+
+---
+
+## 2020-01-01 (Event) - 置信度: 0.67
+1. **山东省小煤电关停**
+- 时间：2020年
+- 内容：拆除小煤电，响应中央节能号召
+- 影响：减少碳排放
+- 来源：[中国碳排放数据库](https://en.ccchina.org.cn/Detail.aspx?newsId=31548&TId=96)
+
+2. **污染减排和碳中和协同方案**
+- 时间：2020年5月23日
+- 内容：绿色低碳转型，清洁取暖改革，淘汰落后产能
+- 影响：减少碳排放
+- 来源：[山东省实施方案](https://climatecooperation.cn/climate/shandong-province-launches-implementation-plan-for-synergizing-pollution-reduction-and-carbon-mitigation/)
+
+---
+
+## 2020-12-31 (Event) - 置信度: 0.56
+1. **海阳市核能供热项目二期**
+- 时间：2020年11月
+- 规模：450万㎡供热面积，替代12个燃煤锅炉
+- 影响：实现全国首个"零碳"供热城市
+- 来源：[Global Times](https://www.globaltimes.cn/page/202111/1239082.shtml)
+
+2. **甘肃至山东电力外送项目**
+- 时间：2021年12月23日
+- 规模：2×100万千瓦
+- 影响：优化能源结构
+- 来源：[山东能源集团](http://english.shandong-energy.com/80223/2021/12/9292119.html)
+
+---
+
+## 2022-01-28 (Event) - 置信度: 0.56
+1. **聊城202MW水库光伏项目**
+- 时间：2022年12月31日
+- 规模：202MW光伏+44MW/88MW储能
+- 影响：年减排CO₂18.9万吨
+- 来源：[聊城项目](https://www.ceic.com/gjnyjtwwEn/xwzx/202301/96ec12caff0b4e7a8596cefad1f207de.shtml)
+
+---
+
+## 2023-03-01 (Event) - 置信度: 0.68
+1. **海上光伏项目招标**
+- 时间：2023年3月
+- 规模：11.25吉瓦
+- 影响：推动可再生能源发展
+- 来源：[中国光伏协会](https://reglobal.org/china-floats-a-tender-for-11-25-gw-of-offshore-solar-projects-in-shandong-province/)
+
+2. **绿色低碳高质量发展计划**
+- 时间：2023年1月
+- 内容：三年行动计划
+- 影响：推动低碳发展
+- 来源：[中国日报](https://www.chinadaily.com.cn/a/202301/13/WS63c12c20a31057c47eba9813.html)
+
+---
+
+## 2023-09-27 (Event) - 置信度: 0.56
+1. **海上风电零突破**
+- 时间：2023年5月
+- 规模：可再生能源装机8143万千瓦
+- 影响：减少碳排放
+- 来源：[山东省风电](https://www.seetao.com/details/220049.html)
+
+---
+
+## 2024-06-01 (Event) - 置信度: 0.66
+1. **220千伏长顺变电站投产**
+- 时间：2024年3月
+- 影响：提高电网稳定性
+- 来源：[China Daily](https://www.chinadaily.com.cn/a/202403/16/WS65f54699a31082fc043bd049.html)
+
+2. **1GW漂浮式太阳能电站**
+- 时间：2024年11月
+- 影响：增加可再生能源
+- 来源：[Global Energy Prize](https://globalenergyprize.org/en/2024/11/29/china-brings-worlds-biggest-floating-spp-into-operation/)
+
+3. **石岛湾核电站扩建**
+- 时间：2024年7月
+- 影响：减少碳排放
+- 来源：[CGTN](https://news.cgtn.com/news/2024-07-29/Expansion-of-world-s-first-4th-generation-nuclear-power-plant-begins-1vCTdf32OmA/p.html)
+
+---
+
+## 2024-08-01 (Event) - 置信度: 0.65
+1. **荣成核电站扩建**
+- 时间：2024年7月28日
+- 规模：总装机超500万千瓦
+- 影响：年减排2760万吨CO₂
+- 来源：[CGTN](https://news.cgtn.com/news/2024-07-29/Expansion-of-world-s-first-4th-generation-nuclear-power-plant-begins-1vCTdf32OmA/p.html)

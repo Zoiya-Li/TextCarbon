@@ -1,0 +1,135 @@
+# 青海省电力部门碳排放相关政策和事件汇总
+
+分析时间：2025年5月1日下午4点56分
+共找到10个重要时间节点的信息
+
+---
+
+## 2019年9月
+没查到有啥重要政策或事件。
+
+---
+
+## 2019年11月
+1. **果洛330千伏第二回线路工程投运**
+时间：2020年1月12日
+地点：青海果洛州
+规模：330千伏输电线路
+影响：这条线路让果洛州的电更好往外送，提高了电网稳定性，也帮青海消纳更多清洁能源。
+新闻链接：[环球时报](https://www.globaltimes.cn/page/202501/1327010.shtml)
+
+2. **格尔木储能电站投运**
+时间：2019年11月5日
+地点：青海格尔木
+规模：32兆瓦/64兆瓦时
+影响：这是国内第一个商业化储能电站，能帮电网调峰，让新能源发的电不浪费。
+新闻链接：[CNESA](http://en.cnesa.org/new-blog/2020/11/24/chinas-first-independent-commercial-energy-storage-station-launches-in-golmud-qinghai-province)
+
+3. **共和光伏电站并网**
+时间：2022年12月30日
+地点：青海共和县
+规模：220万千瓦
+影响：全球数一数二的大光伏电站，让青海清洁能源发电能力大增，减少碳排放。
+新闻链接：[华为智能光伏](https://digitalpower.huawei.com/en/fusionsolar/news/detail/155.html)
+
+这段时间青海电力行业动静挺大，输电线路、储能站、光伏电站都上了，对减碳帮助不小。没听说有啥重大事故或跨省输电项目。
+
+---
+
+## 2020年11月
+没查到重要信息。
+
+---
+
+## 2020年12月
+1. **海南、海西两个新能源基地建成**
+时间：2020年11月
+地点：青海海南州、海西州
+规模：每个基地220万千瓦
+影响：建成了全球最大的新能源基地之一，让青海少用化石能源，多发电，碳排放自然就下来了。
+新闻链接：[PV-Tech](https://www.pv-tech.org/industry-updates/huawei-and-huanghe-reflect-on-worlds-largest-renewable-energy-base/)
+
+---
+
+## 2022年10月
+1. **青海碳达峰方案发布**
+时间：2022年12月19日
+内容：计划到2025年清洁能源装机占到90.6%，多用可再生能源，少烧煤，碳排放肯定降。
+新闻链接：[青海省政府](http://en.energychinaforum.com/news/detail/0_66632.html)
+
+2. **青海数据中心实现碳中和**
+时间：2022年7月
+影响：这个数据中心一年能减碳30万吨，对全省电力行业减碳有帮助。
+新闻链接：[人民网](http://en.people.cn/n3/2024/0320/c90000-20147240.html)
+
+---
+
+## 2022年12月
+1. **共和县新能源项目加速**
+时间：2022年6月
+地点：青海共和县
+影响：当地新能源项目建得快，能源结构变绿了，碳排放减少。
+新闻链接：[中国日报](https://www.chinadaily.com.cn/a/202206/13/WS62a6a849a310fd2b29e625a4.html)
+
+---
+
+## 2023年3月
+1. **共和光伏电站并网**
+时间：2023年5月
+规模：220万千瓦
+影响：全球最大光伏电站开始发电，减碳效果明显。
+新闻链接：[华为数字能源](https://digitalpower.huawei.com/en/fusionsolar/news/detail/155.html)
+
+2. **海南州外送能力提升**
+时间：2023年2月
+规模：80万千瓦
+影响：新能源发的电更好往外送了，少浪费就能多减碳。
+新闻链接：[CGTN](https://news.cgtn.com/news/2023-12-26/2023-in-review-Major-progress-in-China-s-renewable-energy-projects-1pQst1CpRmw/p.html)
+
+3. **格尔木输电工程投运**
+时间：2023年1月
+规模：330千伏
+影响：电网更稳了，对减碳有帮助。
+新闻链接：[环球网](https://www.globaltimes.cn/page/202501/1327010.shtml)
+
+---
+
+## 2023年11月
+1. **青海开建抽水蓄能电站**
+时间：2023年8月
+影响：让电网更灵活，新能源发的电更好用，减碳效果更好。
+新闻链接：[中国日报](https://www.chinadaily.com.cn/a/202308/20/WS64e17ea4a31035260b81d1c1.html)
+
+2. **青海清洁能源装机破5100万千瓦**
+时间：2023年1月
+影响：清洁能源多了，碳排放自然就少了。
+新闻链接：[新华社](https://peoplesdaily.pdnews.cn/china/er/30002028681)
+
+---
+
+## 2024年6月
+1. **玛沁县水电站投产**
+时间：2024年7月
+影响：又多了一个清洁能源项目，减碳有帮助。
+新闻链接：[国资委网站](http://en.sasac.gov.cn/2023/03/16/c_14988.htm)
+
+2. **最大储能设施并网**
+规模：270兆瓦/1080兆瓦时
+影响：让新能源发的电存得住、用得好，少依赖化石能源。
+新闻链接：[ESS News](https://www.ess-news.com/2024/08/19/chinas-largest-electrochemical-storage-facility-achieves-grid-connection/)
+
+3. **中石油建绿氢项目**
+影响：发展氢能产业链，对电力行业减碳有帮助。
+新闻链接：[FuelCellsWorks](https://fuelcellsworks.com/news/petrochinas-first-large-scale-hydrogen-project-starts)
+
+---
+
+## 2024年9月
+1. **新水电站获批**
+影响：水电多了就能少烧煤，减碳效果明显。
+新闻链接：[阿拉伯新闻](https://www.arabnews.com/node/2225831/business-economy)
+
+2. **清洁能源装机超5100万千瓦**
+占比：93%
+影响：清洁能源占了大头，碳排放肯定降。
+新闻链接：[中国日报](https://www.chinadaily.com.cn/a/202401/26/WS65b32090a3105f21a507e84c.html)

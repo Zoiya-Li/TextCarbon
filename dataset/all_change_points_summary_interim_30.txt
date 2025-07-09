@@ -1,0 +1,135 @@
+# 碳排放变点全类型分析汇总报告
+
+## 总体统计
+- 总分析变点数: 151
+- 地区覆盖: Anhui, Beijing, Gansu, Guizhou, Hebei, Heilongjiang, Henan
+- 部门覆盖: Aviation, Ground, Industry, Power, Residential
+
+## 按变点类型统计
+### Seasonal
+- 变点总数: 32
+- 涉及地区: Anhui, Beijing, Gansu, Guizhou, Hebei, Heilongjiang, Henan
+- 涉及部门: Aviation, Ground, Industry, Power
+- 平均置信度: 0.62
+
+### Event
+- 变点总数: 119
+- 涉及地区: Anhui, Beijing, Gansu, Guizhou, Hebei, Heilongjiang
+- 涉及部门: Industry, Power, Residential, Aviation
+- 平均置信度: 0.58
+
+## 按地区统计
+### Anhui
+- 变点总数: 25
+- 涉及部门: Aviation, Ground, Industry, Power, Residential
+- 类型分布:
+  - Event: 22个
+  - Seasonal: 3个
+
+### Beijing
+- 变点总数: 28
+- 涉及部门: Ground, Industry, Power, Residential
+- 类型分布:
+  - Event: 20个
+  - Seasonal: 8个
+
+### Gansu
+- 变点总数: 25
+- 涉及部门: Aviation, Industry, Power, Residential
+- 类型分布:
+  - Event: 20个
+  - Seasonal: 5个
+
+### Guizhou
+- 变点总数: 22
+- 涉及部门: Ground, Industry, Power, Residential
+- 类型分布:
+  - Event: 17个
+  - Seasonal: 5个
+
+### Hebei
+- 变点总数: 22
+- 涉及部门: Ground, Industry, Power
+- 类型分布:
+  - Event: 18个
+  - Seasonal: 4个
+
+### Heilongjiang
+- 变点总数: 26
+- 涉及部门: Aviation, Ground, Industry, Power, Residential
+- 类型分布:
+  - Event: 22个
+  - Seasonal: 4个
+
+### Henan
+- 变点总数: 3
+- 涉及部门: Aviation
+- 类型分布:
+  - Seasonal: 3个
+
+## 按部门统计
+### Aviation
+- 变点总数: 10
+- 涉及地区: Anhui, Gansu, Heilongjiang, Henan
+- 类型分布:
+  - Seasonal: 8个
+  - Event: 2个
+
+### Ground
+- 变点总数: 12
+- 涉及地区: Anhui, Beijing, Guizhou, Hebei, Heilongjiang
+- 类型分布:
+  - Seasonal: 12个
+
+### Industry
+- 变点总数: 60
+- 涉及地区: Anhui, Beijing, Gansu, Guizhou, Hebei, Heilongjiang
+- 类型分布:
+  - Event: 52个
+  - Seasonal: 8个
+
+### Power
+- 变点总数: 60
+- 涉及地区: Anhui, Beijing, Gansu, Guizhou, Hebei, Heilongjiang
+- 类型分布:
+  - Event: 56个
+  - Seasonal: 4个
+
+### Residential
+- 变点总数: 9
+- 涉及地区: Anhui, Beijing, Gansu, Guizhou, Heilongjiang
+- 类型分布:
+  - Event: 9个
+
+## 按年份分布
+- 2019年: 8个变点
+- 2020年: 31个变点
+- 2021年: 28个变点
+- 2022年: 40个变点
+- 2023年: 34个变点
+- 2024年: 10个变点
+
+## 年份-类型交叉统计
+### 2019年
+- Event: 8个
+
+### 2020年
+- Event: 26个
+- Seasonal: 5个
+
+### 2021年
+- Event: 20个
+- Seasonal: 8个
+
+### 2022年
+- Event: 32个
+- Seasonal: 8个
+
+### 2023年
+- Event: 24个
+- Seasonal: 10个
+
+### 2024年
+- Event: 9个
+- Seasonal: 1个
+

@@ -1,0 +1,31 @@
+# Heilongjiang省/市 Residential部门 碳排放变点相关政策与事件汇总
+
+分析时间: 2025-05-01 16:56:12
+共包含 2 个重要转折点的相关信息
+
+---
+
+## 转折点: 2020-11-21 (Event) - 置信度: 0.56
+
+1. **事件名称**：哈尔滨市污水供暖系统
+**发生时间**：2020年11月
+**地点**：哈尔滨市，黑龙江省
+**规模**：为超过8000万平方米的建筑空间提供污水供暖
+**影响**：与燃煤供暖相比，该系统每年减少碳排放和二氧化硫排放超过470万吨
+**信息来源网址**：[China Daily](https://www.chinadaily.com.cn/a/202111/01/WS617f9402a310cdd39bc72992.html)
+
+---
+
+## 转折点: 2022-02-24 (Event) - 置信度: 0.56
+
+1. **事件名称**：Heilongjiang Green Transformation Demonstration Project and Program
+**发生时间**：2022年8月
+**地点**：黑龙江省
+**规模**：项目旨在扩大和升级城市供热系统，提高能源效率，减少排放。
+**影响**：该项目将改善空气质量并减少整个六个城市的温室气体排放。
+**信息来源网址**：[ADB](https://www.adb.org/results/heilongjiang-prc-modernizing-heat-sources-spreads-warmth-cuts-pollution)
+
+未找到其他符合要求的具体重大事件。
+
+---
+

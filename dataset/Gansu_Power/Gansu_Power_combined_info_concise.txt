@@ -1,0 +1,111 @@
+# Gansu省电力部门碳排放变点汇总
+
+分析时间: 2025-05-01 16:56:12
+共10个重要转折点
+
+---
+
+## 2019-05-01 (Event) - 置信度: 0.56
+1. **10万千瓦多能互补风电项目并网**
+   - 时间：2019-12-22
+   - 规模：100万千瓦
+   - 影响：推动可再生能源发展，减少碳排放
+   - 来源：[中国日报](https://govt.chinadaily.com.cn/s/202312/22/WS65ae622d498ed2d7b7ea60c2/massive-wind-and-solar-power-project-in-gansu-begins-generating-clean-energy.html)
+
+2. **风电光伏发展**
+   - 规模：风电1000万千瓦，光伏4×100万千瓦
+   - 影响：优化能源结构
+   - 来源：[中国日报](https://govt.chinadaily.com.cn/s/202406/25/WS6694e59a498ed2d7b7eb30cc/gansu-making-great-green-energy-gains.html)
+
+---
+
+## 2019-11-01 (Event) - 置信度: 0.57
+1. **甘谷电厂复产**
+   - 规模：2×33万千瓦
+   - 影响：提升40万千瓦新能源消纳
+   - 来源：[华能甘谷发电](https://news.bjx.com.cn/html/20221017/1261519.shtml)
+
+2. **两家煤电厂重启**
+   - 影响：引发公众关注
+   - 来源：[人民日报](https://paper.people.com.cn/zgnyb/html/2022-03/21/content_25909204.htm)
+
+---
+
+## 2020-11-01 (Event) - 置信度: 0.57
+1. **风光储一体化项目投运**
+   - 时间：2022-06-21
+   - 影响：提高可再生能源利用率
+   - 来源：[华能甘肃](https://www.sohu.com/a/586251067_121123850)
+
+---
+
+## 2020-12-31 (Event) - 置信度: 0.57
+1. **红沙岗20万千瓦光伏并网**
+   - 时间：2020-12-26
+   - 影响：减少化石能源使用
+   - 来源：[光伏资讯](https://guangfu.bjx.com.cn/news/20221229/1279727.shtml)
+
+2. **19家电企完成碳交易**
+   - 时间：2021-12-30
+   - 规模：清缴1.58亿吨配额
+   - 来源：[北极星电力](https://news.bjx.com.cn/html/20220105/1197644.shtml)
+
+---
+
+## 2021-10-12 (Seasonal) - 置信度: 0.64
+1. **高耗能行业差别电价**
+   - 时间：2021-01-29
+   - 影响：促进行业节能减排
+   - 来源：[甘肃发改委](http://fgw.pingliang.gov.cn/ywgz/jgsf/art/2022/art_ccc69c43839f46c29b9ece2f4dfc580c.html)
+
+2. **分时电价机制完善**
+   - 时间：2021-11-12
+   - 影响：促进新能源消纳
+   - 来源：[甘肃发改委](https://www.gsei.com.cn/html/1668/2021-11-12/content-349675.html)
+
+---
+
+## 2021-11-01 (Event) - 置信度: 0.57
+1. **华明电厂关停**
+   - 规模：2×2.5万千瓦
+   - 影响：淘汰落后产能
+   - 来源：[国家能源局](https://www.gdshe.org/article/17313.html)
+
+---
+
+## 2023-03-31 (Event) - 置信度: 0.57
+1. **新能源装机目标**
+   - 规模：2025年超8000万千瓦
+   - 影响：降低碳排放
+   - 来源：[中国政府网](https://english.www.gov.cn/news/videos/202302/23/content_WS63f700bac6d0a757729e721c.html)
+
+2. **跨省绿色电力输送**
+   - 时间：2023-03-14
+   - 地点：酒泉市
+   - 来源：[中国日报](https://english.www.gov.cn/news/videos/202303/15/content_WS6411285bc6d0f528699db4ce.html)
+
+---
+
+## 2023-04-30 (Event) - 置信度: 0.56
+1. **新能源装机突破5000万千瓦**
+   - 占比：超总装机50%
+   - 来源：[中国日报](https://www.chinadaily.com.cn/a/202305/10/WS645b468ca310b6054fad22d8.html)
+
+2. **电力装机达9056万千瓦**
+   - 同比：+29%
+   - 来源：[中国日报](https://www.chinadaily.com.cn/a/202405/22/WS664dbd01a31082fc043c88f3.html)
+
+---
+
+## 2023-11-01 (Event) - 置信度: 0.56
+1. **庆阳百万千瓦风光项目并网**
+   - 时间：2023-12-22
+   - 减排：160万吨CO2
+   - 来源：[中国日报](https://www.ecns.cn/news/2023-12-22/detail-ihcvyrst2946529.shtml)
+
+---
+
+## 2024-06-01 (Event) - 置信度: 0.56
+1. **750MW光热光伏电厂投产**
+   - 地点：酒泉市
+   - 来源：[World Energy](https://www.world-energy.org/article/47713.html)

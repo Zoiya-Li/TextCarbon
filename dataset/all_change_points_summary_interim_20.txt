@@ -1,0 +1,114 @@
+# 碳排放变点全类型分析汇总报告
+
+## 总体统计
+- 总分析变点数: 100
+- 地区覆盖: Anhui, Beijing, Gansu, Guizhou
+- 部门覆盖: Aviation, Ground, Industry, Power, Residential
+
+## 按变点类型统计
+### Seasonal
+- 变点总数: 21
+- 涉及地区: Anhui, Beijing, Gansu, Guizhou
+- 涉及部门: Aviation, Ground, Industry, Power
+- 平均置信度: 0.61
+
+### Event
+- 变点总数: 79
+- 涉及地区: Anhui, Beijing, Gansu, Guizhou
+- 涉及部门: Industry, Power, Residential
+- 平均置信度: 0.58
+
+## 按地区统计
+### Anhui
+- 变点总数: 25
+- 涉及部门: Aviation, Ground, Industry, Power, Residential
+- 类型分布:
+  - Event: 22个
+  - Seasonal: 3个
+
+### Beijing
+- 变点总数: 28
+- 涉及部门: Ground, Industry, Power, Residential
+- 类型分布:
+  - Event: 20个
+  - Seasonal: 8个
+
+### Gansu
+- 变点总数: 25
+- 涉及部门: Aviation, Industry, Power, Residential
+- 类型分布:
+  - Event: 20个
+  - Seasonal: 5个
+
+### Guizhou
+- 变点总数: 22
+- 涉及部门: Ground, Industry, Power, Residential
+- 类型分布:
+  - Event: 17个
+  - Seasonal: 5个
+
+## 按部门统计
+### Aviation
+- 变点总数: 4
+- 涉及地区: Anhui, Gansu
+- 类型分布:
+  - Seasonal: 4个
+
+### Ground
+- 变点总数: 9
+- 涉及地区: Anhui, Beijing, Guizhou
+- 类型分布:
+  - Seasonal: 9个
+
+### Industry
+- 变点总数: 40
+- 涉及地区: Anhui, Beijing, Gansu, Guizhou
+- 类型分布:
+  - Event: 34个
+  - Seasonal: 6个
+
+### Power
+- 变点总数: 40
+- 涉及地区: Anhui, Beijing, Gansu, Guizhou
+- 类型分布:
+  - Event: 38个
+  - Seasonal: 2个
+
+### Residential
+- 变点总数: 7
+- 涉及地区: Anhui, Beijing, Gansu, Guizhou
+- 类型分布:
+  - Event: 7个
+
+## 按年份分布
+- 2019年: 7个变点
+- 2020年: 23个变点
+- 2021年: 20个变点
+- 2022年: 23个变点
+- 2023年: 20个变点
+- 2024年: 7个变点
+
+## 年份-类型交叉统计
+### 2019年
+- Event: 7个
+
+### 2020年
+- Event: 19个
+- Seasonal: 4个
+
+### 2021年
+- Event: 13个
+- Seasonal: 7个
+
+### 2022年
+- Event: 20个
+- Seasonal: 3个
+
+### 2023年
+- Event: 14个
+- Seasonal: 6个
+
+### 2024年
+- Event: 6个
+- Seasonal: 1个
+

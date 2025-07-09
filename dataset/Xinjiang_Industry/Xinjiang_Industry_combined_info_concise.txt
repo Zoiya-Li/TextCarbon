@@ -1,0 +1,44 @@
+# Xinjiang省/市 Industry部门 碳排放变点汇总
+
+分析时间: 2025-05-01 17:00:12
+
+---
+
+## 2019-04-01 (Event) - 置信度: 0.56
+**事件名称**：Moyu County Industrial Park  
+**地点**：新疆墨玉县  
+**影响**：吸引17家企业入驻，提供3000+就业岗位，优化产业结构  
+**来源**：[CCTV](https://english.cctv.com/2022/01/14/ARTINEYLmhaTgm06HZReZeCu220114.shtml)
+
+---
+
+## 2021-12-16 (Seasonal) - 置信度: 0.68
+1. **政策名称**：《新疆"十四五"工业绿色发展规划》  
+**发布时间**：2022年3月  
+**内容**：工业增加值能耗降17%，遏制"两高"项目，发展新能源集群  
+**来源**：[新疆工信厅](https://gxt.xinjiang.gov.cn/gxt/tzgg/202309/351c8a3ec15f48abb88807086583f641.shtml)
+
+2. **政策名称**：《工业领域碳达峰方案》  
+**发布时间**：2022年6月  
+**目标**：2030年前达峰，构建绿色工业体系  
+**来源**：[新疆市监局](https://scjgj.xinjiang.gov.cn/xjaic/zdwjhb/202306/770947c0f3b249a3aa36af4a40ce1e2a.shtml)
+
+---
+
+## 2022-03-01 (Event) - 置信度: 0.69
+1. **事件名称**：新疆绿电交易增长74.7%  
+**规模**：52.6亿千瓦时  
+**影响**：促进工业转型  
+**来源**：[China Daily](https://www.chinadaily.com.cn/a/202503/25/WS67e2514ba3101d4e4dc2abbf.html)
+
+2. **事件名称**：克拉玛依高新区升级国家级  
+**影响**：优化产业结构  
+**来源**：[State Council](https://english.www.gov.cn/policies/latestreleases/202206/16/content_WS62aaf264c6d02e533532c3f3.html)
+
+---
+
+## 2023-11-01 (Event) - 置信度: 0.56
+**事件名称**：新疆绿电交易激增  
+**规模**：52.6亿千瓦时  
+**影响**：助力碳中和，推动工业转型  
+**来源**：[Gov.cn](https://english.www.gov.cn/archive/statistics/202503/25/content_WS67e24f6ec6d0868f4e8f1289.html)

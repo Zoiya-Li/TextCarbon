@@ -1,0 +1,76 @@
+# Jiangsu省/市 Industry部门 碳排放变点汇总
+
+分析时间: 2025-05-01 16:56:12
+共10个重要转折点
+
+---
+
+## 2019-03-01 (Event) - 置信度: 0.64
+1. **响水化工园区爆炸事故**
+2019年3月21日，盐城市响水县。事故致78人死亡，园区永久关闭。随后江苏省发布《化工产业整治提升方案》，计划2020年化工企业减至2000家，2022年减至1000家，园区减至20个。[来源](https://global.chinadaily.com.cn/a/201904/06/WS5ca7b145a3104842260b49de.html)
+
+---
+
+## 2020-01-01 (Event) - 置信度: 0.67
+1. **Kuncheng湖工业园建设**
+2020年1月29日，常熟市。可能影响当地工业结构和能源消耗。[来源](https://english.jschina.com.cn/23262/202301/t20230130_7813619.shtml)
+
+---
+
+## 2021-03-01 (Event) - 置信度: 0.68
+1. **南京钢铁超低排放改造**
+2021年，南京市。投资80亿元，淘汰低端燃煤锅炉，污染物排放下降60-74%，余热发电并供蒸汽。[来源](http://www.ourjiangsu.com/a/20210621/1624242797587.shtml)
+
+---
+
+## 2022-03-01 (Event) - 置信度: 0.68
+1. **关闭57,275家污染企业**
+2022年，全省。包括4,739家未达标化工企业。[来源](http://jiangsu.chinadaily.com.cn/zhangjiagang/2022-08/15/c_797640.htm)
+
+2. **碳达峰实施方案**
+2022年10月2日。目标2030年可再生能源装机超90GW。[来源](https://enviliance.com/regions/east-asia/cn/report_8453)
+
+3. **张家港工业园区绿色发展**
+2022年3月。推动工业减排。[来源](http://jiangsu.chinadaily.com.cn/zhangjiagang/2022-03/29/c_747073.htm)
+
+---
+
+## 2022-11-01 (Event) - 置信度: 0.66
+1. **碳达峰实施方案**
+2022年10月2日。目标2025年新能源汽车销售占比20%。[来源](https://enviliance.com/regions/east-asia/cn/report_8453)
+
+2. **工业园区能力建设研讨会**
+2022年10月。在徐州、南通、连云港举办，推动双碳目标。[来源](https://climatecooperation.cn/climate/capacity-building-workshop-series-for-selected-industrial-parks-in-jiangsu-province/)
+
+---
+
+## 2023-03-01 (Event) - 置信度: 0.69
+1. **江阴-靖江工业园建设**
+2023年8月14日。五个重大项目开工，可能影响碳排放。[来源](http://www.etaizhou.gov.cn/jingjiang/2023-08/17/c_911568.htm)
+
+---
+
+## 2023-11-16 (Seasonal) - 置信度: 0.65
+1. **产品碳足迹管理体系**
+2023年11月。推动工业绿色转型。[来源](https://www.jiangsu.gov.cn/art/2024/3/15/art_60096_11177200.html)
+
+2. **工业碳达峰方案**
+2023年11月。包括产业结构调整、传统产业升级等。[来源](https://gxt.jiangsu.gov.cn/art/2023/1/17/art_6278_10729235.html)
+
+---
+
+## 2024-02-01 (Event) - 置信度: 0.65
+1. **零碳工业园区建设**
+2024年。全省推进能源转型、产业升级等。[来源](https://english.jschina.com.cn/TodayJiangsu/202405/t20240507_8263544.shtml)
+
+2. **溧阳零碳园区**
+2024年。77,000㎡光伏板，年发电520万度。[来源](http://english.scio.gov.cn/in-depth/2025-04/23/content_117839147.html)
+
+---
+
+## 2024-07-01 (Event) - 置信度: 0.67
+1. **徐州关闭煤矿钢铁厂**
+2024年7月4日。减排降碳。[来源](https://www.bnnbloomberg.ca/business/international/2024/08/02/china-to-start-setting-hard-targets-for-cutting-emissions/)
+
+2. **双碳目标行动计划**
+2024年5月。指导绿色转型。[来源](https://english.jschina.com.cn/TodayJiangsu/202405/t20240507_8263544.shtml)

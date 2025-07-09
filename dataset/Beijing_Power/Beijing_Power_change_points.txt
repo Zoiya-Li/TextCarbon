@@ -1,0 +1,235 @@
+File: Beijing_Power.csv
+Total change points detected: 121
+Total significant points found: 117
+Top significant points (limit=10): 10
+
+Point 1:
+  Date: 2019-04-01
+  Type: Event
+  Confidence: 0.57
+  Features:
+    magnitude: 0.0255
+    relative_magnitude: 6.6483
+    slope_change: 0.0002
+    var_change: 0.0000
+    stability: 0.9873
+    periodicity: 0.0000
+    seasonal_strength: 0.0000
+    similar_pattern: 0.0000
+    year_cycle: 0.0000
+    month_cycle: 0.1540
+    seasonal_score: 0.0231
+    jump_strength: 0.0242
+    ks_stat: 1.0000
+    ks_pvalue_significant: Yes
+    mw_stat: 1.0000
+    t_stat: 52.2894
+    t_pvalue_significant: Yes
+
+Point 2:
+  Date: 2020-11-01
+  Type: Event
+  Confidence: 0.57
+  Features:
+    magnitude: 0.0393
+    relative_magnitude: 4.0947
+    slope_change: 0.0002
+    var_change: 0.0000
+    stability: 0.9805
+    periodicity: 0.0000
+    seasonal_strength: 0.0000
+    similar_pattern: 0.0000
+    year_cycle: 0.9370
+    month_cycle: 0.9049
+    seasonal_score: 0.2763
+    jump_strength: 0.0308
+    ks_stat: 1.0000
+    ks_pvalue_significant: Yes
+    mw_stat: 0.0000
+    t_stat: 41.5407
+    t_pvalue_significant: Yes
+
+Point 3:
+  Date: 2021-11-01
+  Type: Event
+  Confidence: 0.57
+  Features:
+    magnitude: 0.0235
+    relative_magnitude: 5.0381
+    slope_change: 0.0000
+    var_change: 0.0000
+    stability: 0.9883
+    periodicity: 0.0000
+    seasonal_strength: 0.0000
+    similar_pattern: 0.0000
+    year_cycle: 0.9062
+    month_cycle: 0.6109
+    seasonal_score: 0.2276
+    jump_strength: 0.0203
+    ks_stat: 1.0000
+    ks_pvalue_significant: Yes
+    mw_stat: 0.0000
+    t_stat: 48.9943
+    t_pvalue_significant: Yes
+
+Point 4:
+  Date: 2022-11-01
+  Type: Event
+  Confidence: 0.57
+  Features:
+    magnitude: 0.0281
+    relative_magnitude: 6.8695
+    slope_change: 0.0004
+    var_change: 0.0000
+    stability: 0.9860
+    periodicity: 0.0000
+    seasonal_strength: 0.0000
+    similar_pattern: 0.0000
+    year_cycle: 0.6311
+    month_cycle: 0.0000
+    seasonal_score: 0.0947
+    jump_strength: 0.0233
+    ks_stat: 1.0000
+    ks_pvalue_significant: Yes
+    mw_stat: 0.0000
+    t_stat: 45.1655
+    t_pvalue_significant: Yes
+
+Point 5:
+  Date: 2023-03-01
+  Type: Event
+  Confidence: 0.57
+  Features:
+    magnitude: 0.0310
+    relative_magnitude: 4.4266
+    slope_change: 0.0001
+    var_change: 0.0000
+    stability: 0.9847
+    periodicity: 0.3931
+    seasonal_strength: 0.1053
+    similar_pattern: 0.0000
+    year_cycle: 0.3637
+    month_cycle: 0.0000
+    seasonal_score: 0.2118
+    jump_strength: 0.0268
+    ks_stat: 1.0000
+    ks_pvalue_significant: Yes
+    mw_stat: 1.0000
+    t_stat: 65.7618
+    t_pvalue_significant: Yes
+
+Point 6:
+  Date: 2023-03-31
+  Type: Event
+  Confidence: 0.57
+  Features:
+    magnitude: 0.0164
+    relative_magnitude: 6.4329
+    slope_change: 0.0002
+    var_change: 0.0000
+    stability: 0.9915
+    periodicity: 0.0000
+    seasonal_strength: 0.0000
+    similar_pattern: 0.0000
+    year_cycle: 0.9329
+    month_cycle: 0.4441
+    seasonal_score: 0.2065
+    jump_strength: 0.0018
+    ks_stat: 1.0000
+    ks_pvalue_significant: Yes
+    mw_stat: 1.0000
+    t_stat: 21.6171
+    t_pvalue_significant: Yes
+
+Point 7:
+  Date: 2023-11-01
+  Type: Event
+  Confidence: 0.57
+  Features:
+    magnitude: 0.0363
+    relative_magnitude: 11.8306
+    slope_change: 0.0003
+    var_change: 0.0000
+    stability: 0.9821
+    periodicity: 0.0000
+    seasonal_strength: 0.0000
+    similar_pattern: 0.0000
+    year_cycle: 0.8271
+    month_cycle: 0.2905
+    seasonal_score: 0.1676
+    jump_strength: 0.0311
+    ks_stat: 1.0000
+    ks_pvalue_significant: Yes
+    mw_stat: 0.0000
+    t_stat: 58.3476
+    t_pvalue_significant: Yes
+
+Point 8:
+  Date: 2024-04-01
+  Type: Event
+  Confidence: 0.57
+  Features:
+    magnitude: 0.0174
+    relative_magnitude: 3.1774
+    slope_change: 0.0000
+    var_change: 0.0000
+    stability: 0.9913
+    periodicity: 0.0000
+    seasonal_strength: 0.0000
+    similar_pattern: 0.0000
+    year_cycle: 0.0000
+    month_cycle: 0.6289
+    seasonal_score: 0.0943
+    jump_strength: 0.0141
+    ks_stat: 1.0000
+    ks_pvalue_significant: Yes
+    mw_stat: 1.0000
+    t_stat: 35.5321
+    t_pvalue_significant: Yes
+
+Point 9:
+  Date: 2024-06-01
+  Type: Event
+  Confidence: 0.57
+  Features:
+    magnitude: 0.0200
+    relative_magnitude: 6.8683
+    slope_change: 0.0004
+    var_change: 0.0000
+    stability: 0.9899
+    periodicity: 0.3657
+    seasonal_strength: 0.1053
+    similar_pattern: 0.0000
+    year_cycle: 0.0000
+    month_cycle: 0.1715
+    seasonal_score: 0.1720
+    jump_strength: 0.0174
+    ks_stat: 1.0000
+    ks_pvalue_significant: Yes
+    mw_stat: 0.0000
+    t_stat: 33.0281
+    t_pvalue_significant: Yes
+
+Point 10:
+  Date: 2024-09-01
+  Type: Event
+  Confidence: 0.57
+  Features:
+    magnitude: 0.0208
+    relative_magnitude: 4.6521
+    slope_change: 0.0000
+    var_change: 0.0000
+    stability: 0.9896
+    periodicity: 0.0000
+    seasonal_strength: 0.0000
+    similar_pattern: 0.0000
+    year_cycle: 0.0000
+    month_cycle: 0.0000
+    seasonal_score: 0.0000
+    jump_strength: 0.0168
+    ks_stat: 1.0000
+    ks_pvalue_significant: Yes
+    mw_stat: 1.0000
+    t_stat: 47.5156
+    t_pvalue_significant: Yes
+

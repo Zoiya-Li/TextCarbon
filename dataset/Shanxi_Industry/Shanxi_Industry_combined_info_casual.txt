@@ -1,0 +1,110 @@
+# 山西工业碳排放政策与大事记
+
+分析时间：2025年5月1日下午4点56分
+共找到10个关键节点
+
+---
+
+## 2019年4月（可信度56%）
+
+2019年山西搞了这些大事儿：
+
+1. **能源转型计划**
+   - 时间：2019年7月（文件发布时间）
+   - 内容：推动山西从煤老大转型，搞绿色经济，创造新就业，改善空气质量
+   - 来源：[世界银行文件](https://documents1.worldbank.org/curated/en/609661563417538196/pdf/Concept-Program-Information-Document-PID-Shanxi-Energy-Transition-and-Green-Growth-Development-Policy-Operation-P170663.pdf)
+
+2. **焦炭减产**
+   - 时间：2019年
+   - 成果：两年减产1090万吨焦炭，占全国减产量的27%
+   - 来源：[中国日报](https://shanxi.chinadaily.com.cn/2021-09/03/c_658728_2.htm)
+
+---
+
+## 2020年1月（可信度56%）
+
+**钢铁行业超低排放计划**
+- 要求全省钢铁企业2020年10月前完成超低排放改造
+- 运输要求：80%原料要用铁路/管道运输，或者用新能源车
+- 来源：[钢铁行业超低排放计划](https://cibdeg.eli.org/news/shanxis-steel-industry-expected-achieve-ultra-low-emissions-end-year-2020-june-14)
+
+---
+
+## 2020年5月（可信度56%）
+
+1. **煤炭消费控制**
+   - 十四五期间严控煤炭消费增长
+   - 淘汰落后煤电产能，新建电厂要用国际先进标准
+   - 来源：[山西省发改委](https://www.mofcom.gov.cn/zcfb/zgdwjjmywg/art/2021/art_12733a8cdc5a4b9d865f5f9496020dce.html)
+
+2. **风光发电大开发**
+   - 重点发展风电、光伏
+   - 在沙漠、戈壁建大型风光基地
+   - 来源：[山西省能源局](https://www.gov.cn/zhengce/zhengceku/2022-03/23/5680759/files/ccc7dffca8f24880a80af12755558f4a.pdf)
+
+---
+
+## 2021年3月（可信度68%）
+
+1. **可再生能源三年计划**
+   - 目标：到2025年新增太阳能4000MW、风电1000MW
+   - 来源：[山西可再生能源计划](https://www.gem.wiki/Power_Sector_Transition_in_Shanxi)
+
+2. **节能降碳行动**
+   - 目标：单位GDP能耗比2020年降14.5%
+   - 清洁能源装机要占50%
+   - 来源：[节能降碳计划](https://www.gem.wiki/Power_Sector_Transition_in_Shanxi)
+
+---
+
+## 2021年6月（可信度61%）
+
+1. **碳排放管理指南**
+   - 指导重点企业管控碳排放
+   - 来源：[山西生态环境厅](https://sthjt.shanxi.gov.cn/xwzx_1/sxhj/202411/t20241101_9683506.shtml)
+
+2. **碳交易**
+   - 96家企业参与，成交5442万吨碳配额
+   - 来源：[同上]
+
+3. **煤矿产能核增**
+   - 12处煤矿增产
+   - 来源：[陕西省政府](https://www.shaanxi.gov.cn/zfxxgk/zfgb/2021/d16q/202109/t20210902_2189285.html)
+
+---
+
+## 2022年（可信度67%）
+
+1. **钢铁行业节能**
+   - 吨钢能耗大幅下降
+   - 来源：[中国日报](https://shanxi.chinadaily.com.cn/2022-01/25/c_703563.htm)
+
+2. **节能环保产业**
+   - 推进焦化、钢铁、水泥行业改造
+   - 发展光伏风电
+   - 来源：[中国日报](https://shanxi.chinadaily.com.cn/2022-03/17/c_726803.htm)
+
+---
+
+## 2023年（可信度69%）
+
+1. **节能降碳新目标**
+   - 单位GDP能耗降14.5%-16.5%
+   - 清洁能源装机要占50%
+   - 来源：[节能降碳计划](https://www.gem.wiki/Power_Sector_Transition_in_Shanxi)
+
+2. **屋顶光伏计划**
+   - 目标：各类屋顶光伏共4000MW
+   - 来源：[可再生能源计划](https://www.gem.wiki/Power_Sector_Transition_in_Shanxi)
+
+---
+
+## 2023年11月（可信度70%）
+
+1. **钢铁行业碳排放指南**
+   - 规范钢铁企业碳排放核算
+   - 来源：[生态环境部](https://www.mee.gov.cn/xxgk/hjyw/202307/t20230712_1035998.shtml)
+
+2. **低碳技术推广**
+   - 发布第四批低碳技术目录
+   - 来源：[同上]

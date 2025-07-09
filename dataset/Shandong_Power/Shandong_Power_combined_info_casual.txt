@@ -1,0 +1,139 @@
+# 山东电力部门碳排放那些事儿（2025年5月整理）
+分析时间：2025年5月1日下午4点多
+总共找到10个关键节点
+
+---
+
+## 2020年1月（可信度67%）
+
+1. **小煤电关停**
+- 时间：2020年
+- 地点：山东全省
+- 啥情况：响应国家节能号召，开始拆小煤电厂
+- 影响：碳排放减少了
+- 来源：[中国碳排放数据库](https://en.ccchina.org.cn/Detail.aspx?newsId=31548&TId=96)
+
+2. **减排和碳中和方案**
+- 时间：2020年5月
+- 地点：山东
+- 啥情况：搞绿色能源转型，淘汰落后产能
+- 影响：碳排放又降了
+- 来源：[山东省减排方案](https://climatecooperation.cn/climate/shandong-province-launches-implementation-plan-for-synergizing-pollution-reduction-and-carbon-mitigation/)
+
+---
+
+## 2020年底（可信度56%）
+
+1. **海阳核能供暖**
+- 时间：2020年11月
+- 地点：海阳市
+- 啥情况：给20万居民供暖，替代了12个燃煤锅炉
+- 影响：海阳成了全国首个"零碳"供暖城市
+- 来源：[环球时报](https://www.globaltimes.cn/page/202111/1239082.shtml)
+
+2. **甘肃送电山东项目**
+- 时间：2021年12月
+- 地点：山东
+- 啥情况：建了个大输电项目
+- 影响：优化了能源结构，减少碳排放
+- 来源：[山东能源集团](http://english.shandong-energy.com/80223/2021/12/9292119.html)
+
+---
+
+## 2021年底（可信度56%）
+没找到啥重要消息
+
+---
+
+## 2022年初（可信度56%）
+1. **聊城水库光伏**
+- 时间：2022年底
+- 地点：聊城
+- 啥情况：装了37万块太阳能板，还配了储能电站
+- 影响：一年能省6.9万吨煤，减排18.9万吨二氧化碳
+- 来源：[聊城光伏项目](https://www.ceic.com/gjnyjtwwEn/xwzx/202301/96ec12caff0b4e7a8596cefad1f207de.shtml)
+
+---
+
+## 2022年底（可信度56%）
+没找到啥重要消息
+
+---
+
+## 2023年3月（可信度68%）
+1. **海上光伏招标**
+- 时间：2023年3月
+- 地点：山东沿海
+- 啥情况：要搞11.25吉瓦海上光伏
+- 影响：推动可再生能源发展
+- 来源：[中国光伏协会](https://reglobal.org/china-floats-a-tender-for-11-25-gw-of-offshore-solar-projects-in-shandong-province/)
+
+2. **绿色低碳计划**
+- 时间：2023年1月
+- 地点：山东
+- 啥情况：发布三年行动计划
+- 影响：推动低碳发展
+- 来源：[中国日报](https://www.chinadaily.com.cn/a/202301/13/WS63c12c20a31057c47eba9813.html)
+
+---
+
+## 2023年9月（可信度56%）
+1. **海上风电突破**
+- 时间：2023年5月
+- 地点：山东
+- 啥情况：可再生能源装机达8143万千瓦
+- 影响：海上风电实现零突破
+- 来源：[山东风电](https://www.seetao.com/details/220049.html)
+
+---
+
+## 2024年6月（可信度66%）
+1. **聊城变电站投产**
+- 时间：2024年3月
+- 地点：临清
+- 啥情况：新建220千伏变电站
+- 影响：提高电网稳定性
+- 来源：[中国日报](https://www.chinadaily.com.cn/a/202403/16/WS65f54699a31082fc043bd049.html)
+
+2. **全球最大漂浮光伏**
+- 时间：2024年11月
+- 地点：山东
+- 啥情况：1吉瓦漂浮式太阳能
+- 影响：减少碳排放
+- 来源：[全球能源奖](https://globalenergyprize.org/en/2024/11/29/china-brings-worlds-biggest-floating-spp-into-operation/)
+
+3. **第四代核电站扩建**
+- 时间：2024年7月
+- 地点：荣成
+- 啥情况：扩建核电站
+- 影响：减少碳排放
+- 来源：[CGTN](https://news.cgtn.com/news/2024-07-29/Expansion-of-world-s-first-4th-generation-nuclear-power-plant-begins-1vCTdf32OmA/p.html)
+
+---
+
+## 2024年8月（可信度65%）
+1. **核电站扩建**
+- 时间：2024年7月
+- 地点：荣成
+- 啥情况：要建四台百万千瓦级核电机组
+- 影响：相当于每年少烧1150万吨煤
+- 来源：[CGTN](https://news.cgtn.com/news/2024-07-29/Expansion-of-world-s-first-4th-generation-nuclear-power-plant-begins-1vCTdf32OmA/p.html)
+
+2. **聊城变电站**
+- 时间：2024年3月
+- 地点：临清
+- 啥情况：220千伏变电站投用
+- 影响：优化电力结构
+- 来源：[中国日报](https://www.chinadaily.com.cn/a/202403/16/WS65f54699a31082fc043bd049.html)
+
+3. **漂浮光伏电站**
+- 时间：2024年11月
+- 地点：山东
+- 啥情况：1吉瓦漂浮式太阳能
+- 影响：减少碳排放
+- 来源：[全球能源奖](https://globalenergyprize.org/en/2024/11/29/china-brings-worlds-biggest-floating-spp-into-operation/)
+
+---
+
+## 2024年10月（可信度65%）
+没找到啥重要消息

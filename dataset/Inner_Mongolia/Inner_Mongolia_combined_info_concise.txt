@@ -1,0 +1,86 @@
+# Inner省/市 Mongolia部门 碳排放变点汇总  
+分析时间: 2025-05-01  
+
+### 2019-01-25 (Event)  
+1. **乌兰巴托示威游行**  
+   - 时间：2019.1.11  
+   - 规模：3000人  
+   - 影响：持续至1.22，冲击社会秩序  
+   - 来源：[凤凰新闻](https://news.ifeng.com/c/8g6XMtKfUbH)  
+
+2. **蒙古国修订NDC**  
+   - 时间：2019年  
+   - 内容：2030年减排22.7%  
+   - 来源：[CCA Coalition](https://www.ccacoalition.org/zh-CN/projects/technical-support-inform-mongolias-ndc)  
+
+3. **炼油厂竣工**  
+   - 地点：东戈壁省  
+   - 投资：印度12亿美元贷款  
+   - 来源：[ifeng](https://ishare.ifeng.com/c/s/7tPdmoLalcx)  
+
+### 2020-01-01 (Event)  
+1. **乌兰巴托示威**  
+   - 时间：2020.1.11  
+   - 影响：持续至1.22  
+   - 来源：[凤凰新闻](https://news.ifeng.com/c/8g6XMtKfUbH)  
+
+2. **中戈壁省沙尘暴**  
+   - 时间：2020.3.14  
+   - 影响：人员伤亡  
+   - 来源：[人民网](https://www.peopleapp.com/column/30038147500-500003171100)  
+
+### 2020-11-21 (Event)  
+- **中蒙口岸新增**  
+  - 时间：2020.9  
+  - 内容：增设策克-西伯库仑等口岸  
+  - 来源：[内蒙古政府网](https://www.nmg.gov.cn/zfbgt/xxyj/xxyj1/202111/t20211118_1954362.html)  
+
+### 2021-04-01 (Event)  
+- **内蒙古物流业碳排放**  
+  - 趋势：2012年达峰后下降  
+  - 数据：2016-2020年波动于2195-2508万吨  
+  - 来源：[物流技术](http://www.logisticstech.com/fileup/1005-152X/PDF/20240902.pdf)  
+
+### 2021-07-31 (Seasonal)  
+1. **蒙古国清洁能源目标延期**  
+   - 内容：20%目标延至2023年  
+   - 来源：[挂烟阁](https://www.hangyan.co/charts/3439456467403408928)  
+
+2. **六项复兴政策**  
+   - 时间：2021.1.5  
+   - 重点：能源部门复兴  
+   - 来源：[蒙通社](https://montsame.mn/cn/read/334797)  
+
+### 2022-03-01 (Event)  
+1. **乌兰巴托抗议**  
+   - 时间：2022.12  
+   - 诉求：惩处腐败  
+   - 来源：[网易](https://www.163.com/dy/article/I8Q5ET3E0553WTVK.html)  
+
+2. **蒙古-乌兹别克会谈**  
+   - 时间：2022.3  
+   - 内容：农业合作  
+   - 来源：[复旦研究院](https://brgg.fudan.edu.cn/articleinfo_4802.html)  
+
+### 2023-03-01 (Event)  
+- **蒙古国经济论坛**  
+  - 时间：2023.3.29  
+  - 成果：批准绿色融资路线图  
+  - 来源：[蒙通社](https://montsame.mn/cn/read/293324)  
+
+### 2024-02-01 (Event)  
+1. **内蒙古CCER项目**  
+   - 规模：216万亩  
+   - 来源：[中国新闻网](https://www.chinanews.com.cn/cj/2024/12-31/10345590.shtml)  
+
+2. **蒙古国核电站项目**  
+   - 时间：2024-2028  
+   - 投资：法国  
+   - 来源：[蒙煤网](http://www.moncoal.com/zm/downloads/20240823/20240823174316495.html)  
+
+### 2024-06-22 (Event)  
+- **内蒙古碳排放双控**  
+  - 内容：试点鄂尔多斯等地区  
+  - 来源：[内蒙古政府](https://www.eco.gov.cn/news_info/68061.html)  
+
+（注：部分重复及低置信度条目已合并或省略）
